@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="pl">
+	<category name="wbb.board">
+		<item name="wbb.board.threads.isSticky"><![CDATA[<b>Podpięty</b>]]></item>
+	</category>
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.isSticky"><![CDATA[Przypnij ten temat]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.mod.board.canPinThread"><![CDATA[Może przypinać tematy]]></item>
+		<item name="wcf.acp.group.option.mod.board.canPinThread.description"><![CDATA[Ta funkcja działa na <b>wszytkich</b> forach!]]></item>
+	</category>
 </language>
