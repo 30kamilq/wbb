@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="pl">
+
+	<category name="wcf.user.onlineTimer">
+		<item name="wcf.user.onlineTimer.year"><![CDATA[Rok]]></item>
+		<item name="wcf.user.onlineTimer.years"><![CDATA[Lat]]></item>
+		<item name="wcf.user.onlineTimer.month"><![CDATA[Miesiąc]]></item>
+		<item name="wcf.user.onlineTimer.months"><![CDATA[Miesięcy]]></item>
+		<item name="wcf.user.onlineTimer.week"><![CDATA[Tydzień]]></item>
+		<item name="wcf.user.onlineTimer.weeks"><![CDATA[Tygodni]]></item>
+		<item name="wcf.user.onlineTimer.day"><![CDATA[Dzień]]></item>
+		<item name="wcf.user.onlineTimer.days"><![CDATA[Dni]]></item>
+		<item name="wcf.user.onlineTimer.hour"><![CDATA[Godzinę]]></item>
+		<item name="wcf.user.onlineTimer.hours"><![CDATA[Godzin]]></item>
+		<item name="wcf.user.onlineTimer.minute"><![CDATA[Minutę]]></item>
+		<item name="wcf.user.onlineTimer.minutes"><![CDATA[Minut]]></item>
+		<item name="wcf.user.onlineTimer.second"><![CDATA[Sekunda]]></item>
+		<item name="wcf.user.onlineTimer.seconds"><![CDATA[Sekund]]></item>
+	</category>
+
+	<category name="wcf.user.option">
+		<item name="wcf.user.option.userOnlineTimerOnlinetime"><![CDATA[Czas online]]></item>
+	</category>
+
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.user.onlinetimer"><![CDATA[Czas online]]></item>
+		<item name="wcf.acp.option.category.user.onlinetimer.description"><![CDATA[Czas użytkownika spędzony na forum]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout"><![CDATA[Timeout]]></item>
+		<item name="wcf.acp.option.onlinetimer_timeout.description"><![CDATA[Ile sekund po zalogowaniu ma być liczony czas?]]></item>
+		<item name="wcf.acp.option.onlinetimer_format"><![CDATA[Format]]></item>
+		<item name="wcf.acp.option.onlinetimer_format.description"><![CDATA[Tutaj można zdefiniować format wyświetlania czasu w profilach. Dostepne są następujące symbole: %y dla lat, %b dla miesięcy, %w dla tygodni, %d dla dni, %h dla godzin, %m dla minut, %s dla sekund.]]></item>
+	</category>
+
 </language>
