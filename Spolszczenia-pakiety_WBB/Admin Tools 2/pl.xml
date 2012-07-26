@@ -158,6 +158,16 @@
 		<item name="wbb.acp.admintools.function.wbb.subscriptionCleanup.success"><![CDATA[{$count} subskrycji zostało pomyślnie usuniętych.]]></item>
 	</category>
 	<category name="wcf.acp.admintools.option">
+		<item name="wcf.acp.admintools.option.category.user.inactiveUsers.lazy"><![CDATA[Ustawienia dla nieaktywnych użytkowników]]></item>
+		<item name="wcf.acp.admintools.option.category.user.inactiveUsers.lazy.description"><![CDATA[]]></item>		
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.time"><![CDATA[Czas]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.time.description"><![CDATA[Wpisz liczbę dni, po których użytkownicy z mniejszą ilością postów niż powyżej skonfigurowanego zostaną usunięte.]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.postSinceRegistration"><![CDATA[Obliczaj niekatywnych użtkowników wg. daty ich rejestracji]]></item>		
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.postSinceRegistration.description"><![CDATA[Uaktywnij tę opcję, jeśli chcesz obliczyć posty według daty rejestracji, a nie ostatniej aktywności]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.postThreshold"><![CDATA[Lazy with]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.postThreshold.description"><![CDATA[Wprowadź próg postów. Użytkownicy z mniejszą ilością postów zostaną usunięte po skonfigurowanym czasie poniżej.]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.action"><![CDATA[Akcja]]></item>
+		<item name="wcf.acp.admintools.option.user.inactiveUsers.lazy.action.description"><![CDATA[Wybierz co robić z niekatywnymi użytkownikami.]]></item>
 		<item name="wcf.acp.admintools.option.user.usergroupcopy.copyBoardPermissions"><![CDATA[Kopiuj uprawnienia działów]]></item>
 		<item name="wcf.acp.admintools.option.user.usergroupcopy.copyBoardPermissions.description"><![CDATA[Uaktywnij tę opcję, jeśli chcesz skopiować wszystkie uprawnienia grupy źródłowej do grupy docelowej.]]></item>		
 		<item name="wcf.acp.admintools.option.category.wbb"><![CDATA[Burning Board]]></item>
