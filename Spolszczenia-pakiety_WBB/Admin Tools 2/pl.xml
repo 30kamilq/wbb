@@ -158,6 +158,8 @@
 		<item name="wbb.acp.admintools.function.wbb.subscriptionCleanup.success"><![CDATA[{$count} subskrycji zostało pomyślnie usuniętych.]]></item>
 	</category>
 	<category name="wcf.acp.admintools.option">
+		<item name="wcf.acp.admintools.option.user.usergroupcopy.copyBoardPermissions"><![CDATA[Kopiuj uprawnienia działów]]></item>
+		<item name="wcf.acp.admintools.option.user.usergroupcopy.copyBoardPermissions.description"><![CDATA[Uaktywnij tę opcję, jeśli chcesz skopiować wszystkie uprawnienia grupy źródłowej do grupy docelowej.]]></item>		
 		<item name="wcf.acp.admintools.option.category.wbb"><![CDATA[Burning Board]]></item>
 		<item name="wcf.acp.admintools.option.category.wbb.boardPrefixes"><![CDATA[Copy prefixes]]></item>
 		<item name="wcf.acp.admintools.option.category.wbb.boardPrefixes.description"><![CDATA[This function can copy prefixes to any other forum. Existing prefixes will be overwritten.]]></item>
