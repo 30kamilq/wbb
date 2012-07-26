@@ -152,7 +152,20 @@
 		<item name="wcf.acp.admintools.function.wbb.subscriptionCleanup"><![CDATA[Usuń subskrycje]]></item>
 		<item name="wcf.acp.admintools.function.wbb.assignSubscripion"><![CDATA[Przypisz ssubskrycje]]></item>
 	</category>
-	<category name="wbb.acp.admintools">		
+	<category name="wbb.acp.admintools">	
+		<item name="wbb.acp.admintools.function.user.inactiveUsers.lazy.mailsubject"><![CDATA[{$pagetitle}: Twoje konto jest zaplanowane do usunięcia]]></item>
+		<item name="wbb.acp.admintools.function.user.inactiveUsers.lazy.mailmessage"><![CDATA[Witaj {$username},
+
+Napisałeś mniej niż {$lazytreshold} postów na stronie ({$pagetitle}) w ostatnich {$lastvisit} dniach.
+Jeśli nie jesteś już zainteresowany naszą stroną, zignoruj ten mail. Konto zostanie usunięte w ciągu {$warntime} dni.
+
+
+------------------------------------------------------------
+Ten mail został automatycznie wygenerowany.]]></item>		
+		<item name="wbb.acp.admintools.function.user.inactiveUsers.lazy.mailwarned"><![CDATA[{$count} niekatywnych użytkowników zostało ostrzeżonych:]]></item>
+		<item name="wbb.acp.admintools.function.user.inactiveUsers.lazy.adminmail"><![CDATA[{$count} niekatywnych użytkowników zostało usuniętych:]]></item>
+		<item name="wbb.acp.admintools.function.user.inactiveUsers.lazy.success"><![CDATA[<p>{$countDeleted} users have been deleted due to lazy posting behaviour.</p>
+			
 		<item name="wbb.acp.admintools.function.wbb.boardPrefixes.sourceInTargetArray"><![CDATA[The source-forum can not be included in the listing of the destination-forums.]]></item>
 		<item name="wbb.acp.admintools.function.wbb.boardPrefixes.noPrefixesInSource"><![CDATA[Forum nie ma prefixów.]]></item>
 		<item name="wbb.acp.admintools.function.wbb.subscriptionCleanup.success"><![CDATA[{$count} subskrycji zostało pomyślnie usuniętych.]]></item>
