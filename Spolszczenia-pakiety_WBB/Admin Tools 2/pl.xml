@@ -1,4 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+	<category name="wcf.acp.admintools">		
+		<item name="wcf.acp.admintools.function.wbb.boardPermissions"><![CDATA[Kopiuj uprawnienia forum]]></item>
+	</category>
+	<category name="wbb.acp.admintools">		
+		<item name="wbb.acp.admintools.function.wbb.boardPermissions.sourceInTargetArray"><![CDATA[The source board must not be included within the target boards.]]></item>
+	</category>
+	<category name="wcf.acp.admintools.option">
+		<item name="wcf.acp.admintools.option.category.wbb"><![CDATA[Burning Board]]></item>
+		<item name="wcf.acp.admintools.option.category.wbb.boardPermissions"><![CDATA[Kopiuj uprawnienia forum]]></item>
+		<item name="wcf.acp.admintools.option.category.wbb.boardPermissions.description"><![CDATA[Ta funkcja pozwala skopiować uprawninia użytkowników, moderatrów do innej grupy .]]></item>		
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.sourceBoard"><![CDATA[Source board]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.sourceBoard.description"><![CDATA[Wybierz fora, których chcesz skopiować uprawnienia.]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.targetBoards"><![CDATA[Zielforen]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.targetBoards.description"><![CDATA[Aby zaznaczyć więcej elementów przyciśnij klawisz &quot;Ctrl/Shift&quot; (Windows) i kliknij lewym przyciskiem myszy.]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyUsers"><![CDATA[Kopiuj użytkowników]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyUsers.description"><![CDATA[Ta opcja umożliwia skopiowanie uprawnień użytkowników.]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyUsergroups"><![CDATA[Kopiuj grupy]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyUsergroups.description"><![CDATA[Ta opcja umożliwia skopiowanie uprawnień grup]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyModerators"><![CDATA[Kopiuj moderatorów]]></item>
+		<item name="wcf.acp.admintools.option.wbb.boardPermissions.copyModerators.description"><![CDATA[Ta opcja umożliwia skopiowanie uprawnień moderatorów.]]></item>
+	</category>
 	
+	
+	<category name="wcf.acp.admintools">
+		<item name="wcf.acp.admintools.about"><![CDATA[O Admin Tools 2]]></item>
+		<item name="wcf.acp.admintools.acpmenu.add"><![CDATA[Dodaj link w menu]]></item>
+		<item name="wcf.acp.admintools.acpmenu.edit"><![CDATA[Edytuj link w menu]]></item>
+		<item name="wcf.acp.admintools.acpmenu.delete"><![CDATA[Usuń link w menu]]></item>
+		<item name="wcf.acp.admintools.acpmenu.enable"><![CDATA[Aktywuj link w menu]]></item>
+		<item name="wcf.acp.admintools.acpmenu.disable"><![CDATA[Wyłącz link w menu]]></item>
+		<item name="wcf.acp.admintools.acpmenu.add.success"><![CDATA[Link w menu został pomyślnie dodany.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.edit.success"><![CDATA[Link w menu został pomyślnie edytowny.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.delete.sure"><![CDATA[Czy na pewno chcesz usunąć link w menu?]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.delete.success"><![CDATA[Link w menu został pomyślnie usunięty.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.warning.isNative"><![CDATA[Ten link w menu należy do wtyczki lub samodzielnego pakietu. Edytowanie lub usuwanie może ograniczyć funkcjonalność pluginów.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.data"><![CDATA[Menu Item Data]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItem"><![CDATA[Nazwa]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItem.description"><![CDATA[Podaj nazwę linku.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItemLink"><![CDATA[Link]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItemLink.description"><![CDATA[Wpisz, gdzie ma przekierowywać link.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItemIcon"><![CDATA[Ikona]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.menuItemIcon.description"><![CDATA[Wpisz URL do ikony linku w menu.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.permissions"><![CDATA[Uprawnienia]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.permissions.description"><![CDATA[Wybierz jedno lub więcej uprawnień, które są wymagane, aby móc zobaczyć ten element menu. Wiele elementów można wybrać trzymając &quot;Ctrl/Shift&quot;.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.parentMenuItem"><![CDATA[Nadrzędny link menu]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.parentMenuItem.description"><![CDATA[Wybierz element menu nadrzędnego.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.showOrder"><![CDATA[Sortowanie]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.showOrder.description"><![CDATA[Wprowadź numer do sortowania tego linku.]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.useiFrame"><![CDATA[Aktywuj iFrame]]></item>	
+		<item name="wcf.acp.admintools.acpmenu.useiFrame.description"><![CDATA[Uaktywnij tę opcję, jeśli chcesz, aby otworzyć linki w iframe.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.iframe"><![CDATA[Ustawienia iFrame]]></item>
+		<item name="wcf.acp.admintools.acpmenu.iframeWidth"><![CDATA[Szerokość iFrame]]></item>
+		<item name="wcf.acp.admintools.acpmenu.iframeWidth.description"><![CDATA[Podaj szerokość iFrame.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.iframeHeight"><![CDATA[Wysokość iFrame]]></item>
+		<item name="wcf.acp.admintools.acpmenu.iframeHeight.description"><![CDATA[Podaj wysokość iFrame.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderWidth"><![CDATA[Szerokość obramowania]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderWidth.description"><![CDATA[Podaj szerokość obramowania w iframe.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderColor"><![CDATA[Kolor obramowania]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderColor.description"><![CDATA[Podaj kolor obramowania.]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderStyle"><![CDATA[Styl obramowania]]></item>
+		<item name="wcf.acp.admintools.acpmenu.borderStyle.description"><![CDATA[Wybierz styl obramowania.]]></item>  
+		<item name="wcf.acp.admintools.cronjob"><![CDATA[Cronjob]]></item>
+		<item name="wcf.acp.admintools.credits"><![CDATA[O Admin Tools 2]]></item>
+		<item name="wcf.acp.admintools.credits.developedFor"><![CDATA[Opracowany dla]]></item>
+		<item name="wcf.acp.admintools.credits.developer"><![CDATA[Programowanie]]></item>
+		<item name="wcf.acp.admintools.credits.icons"><![CDATA[Ikony & Grafika]]></item>
+		<item name="wcf.acp.admintools.credits.contributor"><![CDATA[Contributors]]></item>
+		<item name="wcf.acp.admintools.credits.translators"><![CDATA[Tłumaczenie]]></item>
+		<item name="wcf.acp.admintools.credits.donate"><![CDATA[Wspomóż]]></item>
+		<item name="wcf.acp.admintools.credits.donate.description"><![CDATA[Rozwój tej wtyczki zajęło mi dużo czasu. Jeśli chcesz wesprzeć dalszy rozwój lub powiedzieć "dziękuję" możesz zostawić mi małą darowiznę.]]></item>
+		<item name="wcf.acp.admintools.diskinformation"><![CDATA[Pojemność dysku {#$diskInformation.totalSpace} MB - wolne {#$diskInformation.freeSpace}  MB - zajęte {#$diskInformation.usedSpace} MB]]></item>
+		<item name="wcf.acp.admintools.function.run"><![CDATA[Wykonaj]]></item>
+		<item name="wcf.acp.admintools.functions"><![CDATA[Funkcje]]></item>
+        	<item name="wcf.acp.admintools.functions.none"><![CDATA[Obecnie brak funkcji.]]></item>
+		<item name="wcf.acp.admintools.menulink"><![CDATA[Linki admina]]></item>		
+		<item name="wcf.acp.admintools.function.execute.confirm"><![CDATA['Czy na pewno chcesz wykonać funkcję ' + functionName + '?']]></item>
+		<item name="wcf.acp.admintools.functions.success"><![CDATA[Zmiany zostały pomyślnie zapisane.]]></item>
+		<item name="wcf.acp.admintools.function.success"><![CDATA[Funkcja &raquo;{$functionName}&laquo; została pomyślnie wykonana.]]></item>
+		<item name="wcf.acp.admintools.importAndExport"><![CDATA[Eksport & Import opcji Admin Tools]]></item>
+		<item name="wcf.acp.admintools.cronjobs.list.count"><![CDATA[Razem {#$items} cronjobs]]></item>
+		<item name="wcf.acp.admintools.cronjobs.wcffunctions"><![CDATA[WCF Funkcje]]></item>
+		<item name="wcf.acp.admintools.cronjobs.wcffunctions.description"><![CDATA[Wszystkie funkcje, które są niezależne.]]></item>
+		<item name="wcf.acp.admintools.cronjobs.standalonefunctions"><![CDATA[Funkcje]]></item>
+		<item name="wcf.acp.admintools.cronjobs.standalonefunctions.description"><![CDATA[Wszystkie funkcje przypisane do ({PACKAGE_NAME}).]]></item>
+		<item name="wcf.acp.admintools.cronjobs.wcfCronjob"><![CDATA[WCF Cronjob]]></item>
+		<item name="wcf.acp.admintools.cronjobs.wcfCronjob.description"><![CDATA[Uaktywnij tę opcję, jeśli chcesz przypisać ten cronjob do WCF. Należy pamiętać, że uaktywnienie tej opcji wyłącza możliwość korzystania z samodzielnych funkcji w tym cronjob.]]></item>
+		<item name="wcf.acp.admintools.function.checkall"><![CDATA[Aktywuj/Dezaktywuj wszystkie opcje.]]></item>
+		<item name="wcf.acp.admintools.spider"><![CDATA[Spiders]]></item>
+		<item name="wcf.acp.admintools.spider.list"><![CDATA[Własne spiders]]></item>
+		<item name="wcf.acp.admintools.spider.list.count"><![CDATA[Razem {#$items} własnych spider{if $items > 1}s{/if}]]></item>
+		<item name="wcf.acp.admintools.spider.synchronize"><![CDATA[Synchronizacja]]></item>
+		<item name="wcf.acp.admintools.spider.add"><![CDATA[Dodaj spider]]></item>
+		<item name="wcf.acp.admintools.spider.add.success"><![CDATA[Spider został pomyślnie dodany.]]></item>
+		<item name="wcf.acp.admintools.spider.edit"><![CDATA[Edytuj spider]]></item>
+		<item name="wcf.acp.admintools.spider.edit.success"><![CDATA[Spider został pomyślnie edytowany.]]></item>
+		<item name="wcf.acp.admintools.spider.delete"><![CDATA[Usuń spider]]></item>
+		<item name="wcf.acp.admintools.spider.delete.sure"><![CDATA[Na pewno chcesz usunąć ten spider?]]></item>
+		<item name="wcf.acp.admintools.spider.delete.success"><![CDATA[Ten spider zostałpomyślnie usunięty.]]></item>
+		<item name="wcf.acp.admintools.spider.spiderid"><![CDATA[ID]]></item>		 	
+		<item name="wcf.acp.admintools.spider.spidername"><![CDATA[Nazwa]]></item>
+		<item name="wcf.acp.admintools.spider.spidername.description"><![CDATA[Podaj nazwę spider's.]]></item>
+		<item name="wcf.acp.admintools.spider.spideridentifier"><![CDATA[User agent]]></item>
+		<item name="wcf.acp.admintools.spider.spideridentifier.description"><![CDATA[Enter the user agent string of the spider. This has to be accurate in order to recognize the spider.]]></item>
+		<item name="wcf.acp.admintools.spider.spiderurl"><![CDATA[Strona]]></item>
+		<item name="wcf.acp.admintools.spider.spiderurl.description"><![CDATA[Podaj link do storny spider's. [opcjonalnie]]]></item>
+		<item name="wcf.acp.admintools.spider.data"><![CDATA[Dane]]></item>
+		<item name="wcf.acp.admintools.spider.noneAvailable"><![CDATA[Obecnie nie ma własnych spider.]]></item> 
+		<item name="wcf.acp.admintools.spider.markedSpiders"><![CDATA[this.count == 1 ? "Jeden spider zaznaczony" : this.count+" spiders zaznaczonych"]]></item>
+		<item name="wcf.acp.admintools.delete.sure"><![CDATA[Czy na pewno chcesz usunąć ten element?]]></item>
+		<item name="wcf.acp.admintools.spider.importandexport"><![CDATA[Eksport & Import]]></item>
+		<item name="wcf.acp.admintools.spider.spider.importAndExport"><![CDATA[Eksport & Import spiders]]></item>
+		<item name="wcf.acp.admintools.spider.import"><![CDATA[Import spiders]]></item>
+		<item name="wcf.acp.admintools.spider.export"><![CDATA[Eksport spiders]]></item>
+		<item name="wcf.acp.admintools.spider.export.download"><![CDATA[Pobierz spider eksport]]></item>
+		<item name="wcf.acp.admintools.spider.import.upload"><![CDATA[Wyślij eksport spider z komputera]]></item>
+		<item name="wcf.acp.admintools.spider.import.upload.description"><![CDATA[]]></item>
+		<item name="wcf.acp.admintools.spider.export.download.description"><![CDATA[Pobierz spider na twój komputer]]></item>
+		<item name="wcf.acp.admintools.spider.import.success"><![CDATA[Spiders zostały pomyślnie importowane.]]></item>
+		<item name="wcf.acp.admintools.spider.import.error.importFailed"><![CDATA[Spiders nie zostały importowane. Plik jest nieprawidłowy.]]></item>
+		<item name="wcf.acp.admintools.spider.import.error.uploadFailed"><![CDATA[Upload zakończył się niepowodzeniem.]]></item>
+		<item name="wcf.acp.admintools.spider.oldAdminTools"><![CDATA[Old Admin Tools spider export]]></item>
+		<item name="wcf.acp.admintools.spider.oldAdminTools.description"><![CDATA[Activate this option if your file is an export from the old admin tools plugin.]]></item>		
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.admintools"><![CDATA[Admin Tools]]></item>
+		<item name="wcf.acp.menu.link.admintools.cronjobs"><![CDATA[Cronjobs]]></item>
+		<item name="wcf.acp.menu.link.admintools.export"><![CDATA[Eksport]]></item>
+		<item name="wcf.acp.menu.link.admintools.importandexport"><![CDATA[Eksport & Import]]></item>
+		<item name="wcf.acp.menu.link.admintools.functions"><![CDATA[Funkcje]]></item>
+		<item name="wcf.acp.menu.link.admintools.index"><![CDATA[Podgląd]]></item>		
+		<item name="wcf.acp.menu.link.admintools.menu"><![CDATA[Linki admina]]></item>		
+		<item name="wcf.acp.menu.link.admintools.spider"><![CDATA[Spiders]]></item>
+		<item name="wcf.acp.menu.link.admintools.about"><![CDATA[O Admin Tools 2]]></item>		
+	</category>
+	<category name="wcf.acp.package">
+		<item name="wcf.acp.package.step.install.AdminToolsFunctionPackageInstallationPlugin"><![CDATA[Instalacja funkcji Admin Tools ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.AdminToolsFunctionPackageInstallationPlugin"><![CDATA[Deinstalacja funkcji Admin Tools ...]]></item>
+		<item name="wcf.acp.package.step.update.AdminToolsFunctionPackageInstallationPlugin"><![CDATA[Aktualizacja funkcji Admin Tools ...]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.button.saveSettings"><![CDATA[Zapisz ustawienia]]></item>
+	</category>
+	<category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.admin.system.admintools"><![CDATA[Admin Tools]]></item>
+        <item name="wcf.acp.group.option.admin.system.admintools.description"><![CDATA[]]></item>
+    	<item name="wcf.acp.group.option.admin.system.admintools.canView"><![CDATA[Uprawnienia Admin Tools]]></item>
+    	<item name="wcf.acp.group.option.admin.system.admintools.canView.description"><![CDATA[Users of this group can use the Admin Tools.]]></item>
+	</category>
 </language>
