@@ -200,14 +200,6 @@ Ten mail został automatycznie wygenerowany.]]></item>
 		<item name="wcf.acp.admintools.option.wbb.assignSubscription.boards.description"><![CDATA[Choose the boards which will be assigned to the users of the selected usergroup below.]]></item>
 		<item name="wcf.acp.admintools.option.wbb.assignSubscription.usergroup"><![CDATA[Grupy]]></item>
 		<item name="wcf.acp.admintools.option.wbb.assignSubscription.usergroup.description"><![CDATA[The usergroup's users will get the above selected boards assigned as subscription.]]></item>		
-	</category>
-	
-	<category name="wcf.acp.admintools">		
-		<item name="wcf.acp.admintools.function.messages.prunePMs"><![CDATA[Usuń PW]]></item>
-		<item name="wcf.acp.admintools.function.messages.prunePMs.success"><![CDATA[{$pmCount} prywatnych wiadomości zostało usuniętych.]]></item>
-		<item name="wcf.acp.admintools.function.messages.prunePMs.infoBox"><![CDATA[Prywatne wiadomości są usuwane po {$pruneTime} dniach.]]></item>
-	</category>
-	<category name="wcf.acp.admintools.option">
 		<item name="wcf.acp.admintools.option.category.messages"><![CDATA[Wiadomości]]></item>
 		<item name="wcf.acp.admintools.option.category.messages.prunePMs"><![CDATA[Usuń PW]]></item>
 		<item name="wcf.acp.admintools.option.category.messages.prunePMs.description"><![CDATA[Ta funkcja usuwa prywatne wiadomości, które są starsze niż określony czas (w dniach).]]></item>		
@@ -222,11 +214,14 @@ Ten mail został automatycznie wygenerowany.]]></item>
 		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox"><![CDATA[Pokaż informację]]></item>
 		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBox.description"><![CDATA[Wyświetlaj informację, że PW są usuwane po określonym czasie.]]></item>
 		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll"><![CDATA[Zawsze pokazuj informację]]></item>
-		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll.description"><![CDATA[Wyświetla informacje dla użytkowników, których PW nie będą usuwane.]]></item>
-	</category>
-</language>
+		<item name="wcf.acp.admintools.option.messages.prunePMs.showInfoBoxToAll.description"><![CDATA[Wyświetla informacje dla użytkowników, których PW nie będą usuwane.]]></item>	
+	</category>	
 
-<category name="wcf.acp.admintools">		
+
+<category name="wcf.acp.admintools">	
+		<item name="wcf.acp.admintools.function.messages.prunePMs"><![CDATA[Usuń PW]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.success"><![CDATA[{$pmCount} prywatnych wiadomości zostało usuniętych.]]></item>
+		<item name="wcf.acp.admintools.function.messages.prunePMs.infoBox"><![CDATA[Prywatne wiadomości są usuwane po {$pruneTime} dniach.]]></item>
 		<item name="wcf.acp.admintools.function.cache.clearCache"><![CDATA[Wyczyść cache]]></item>
 		<item name="wcf.acp.admintools.function.database.optimize"><![CDATA[Optymalizacja bazy danych]]></item>
 		<item name="wcf.acp.admintools.function.database.optimize.optimize.success"><![CDATA[<li>{$tableCount} tabel zostało pomyślnie zoptymalizowanych.</li>]]></item>
@@ -323,3 +318,4 @@ to jest spis o użytkowników do {$actionDate}.]]></item>
 		<item name="wcf.acp.admintools.option.user.inactiveUsers.inactive.action"><![CDATA[Akcja]]></item>
 		<item name="wcf.acp.admintools.option.user.inactiveUsers.inactive.action.description"><![CDATA[Wybierz, co zrobić z nieaktywnymi użytkownikami.]]></item>
 	</category>
+</language>
