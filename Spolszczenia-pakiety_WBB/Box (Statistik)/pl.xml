@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.additionalbox"><![CDATA[Box (Statystyki)]]></item>
+		<item name="wcf.acp.option.category.additionalbox.description"><![CDATA[Tutaj możesz skonfigurować Twoje dodatkowe pole]]></item>
+		<item name="wcf.acp.option.category.additionalbox.config"><![CDATA[Box]]></item>
+		<item name="wcf.acp.option.category.additionalbox.config.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.additionalbox.settings"><![CDATA[Ustawienia]]></item>
+		<item name="wcf.acp.option.category.additionalbox.settings.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.settings_showonindex"><![CDATA[Pokazywać tylko na stronie głównej?]]></item>
+		<item name="wcf.acp.option.settings_showonindex.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.additionalbox_content"><![CDATA[Zawartość]]></item>
+		<item name="wcf.acp.option.additionalbox_content.description"><![CDATA[Tutaj możesz dodać zawartość pola]]></item>
+		<item name="wcf.acp.option.additionalbox_icon"><![CDATA[Ikona]]></item>
+		<item name="wcf.acp.option.additionalbox_icon.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.additionalbox_caption"><![CDATA[Podpis]]></item>
+		<item name="wcf.acp.option.additionalbox_caption.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.settings_activate"><![CDATA[Aktywny?]]></item>
+		<item name="wcf.acp.option.settings_activate.description"><![CDATA[Włącz lub wyłącz pole]]></item>
+		<item name="wcf.acp.option.settings_background"><![CDATA[Tło]]></item>
+		<item name="wcf.acp.option.settings_background.description"><![CDATA[Tło pola]]></item>
+		<item name="wcf.acp.option.additionalbox_html"><![CDATA[HTML]]></item>
+		<item name="wcf.acp.option.additionalbox_html.description"><![CDATA[Jeśli włączysz tą opcję będziesz mógł użyć HTML w zawartości]]></item>
+		<item name="wcf.acp.option.additionalbox_bbcode"><![CDATA[BBCode]]></item>
+		<item name="wcf.acp.option.additionalbox_bbcode.description"><![CDATA[Jeśli włączysz tą opcję będziesz mógł użyć BBCode w zawartości.]]></item>
+		<item name="wcf.acp.option.additionalbox_smileys"><![CDATA[Emotikony]]></item>
+		<item name="wcf.acp.option.additionalbox_smileys.description"><![CDATA[Jeśli włączysz tą opcję będziesz mógł użyć emotikony w zawartości]]></item>
+		<item name="wcf.acp.group.option.category.user.additionalbox"><![CDATA[Box (Statystyki)]]></item>
+	    <item name="wcf.acp.group.option.category.user.additionalbox.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.additionalbox.canView"><![CDATA[Widzi dodatkowe pole nad statystykami]]></item>
+	    <item name="wcf.acp.group.option.user.additionalbox.canView.description"><![CDATA[]]></item>
+	</category>
 </language>
