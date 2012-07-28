@@ -17,7 +17,7 @@
     <authorurl>http://wbb-site.pl</authorurl>
   </authorinformation>
   <requiredpackages>
-    <requiredpackage minversion="2.1.*">com.woltlab.wbb</requiredpackage>
+    <requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
   </requiredpackages>
 
   <optionalpackages />
