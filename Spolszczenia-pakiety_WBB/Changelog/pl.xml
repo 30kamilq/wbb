@@ -1,4 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+<language languagecode="pl" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.content.changelog"><![CDATA[Changelog]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.changelog.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListProducts"><![CDATA[Widzi listę produktów]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListProducts.description"><![CDATA[Użytkownicy należący do tej grupy widzą produkty.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddProduct"><![CDATA[Może dodawać produkty]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddProduct.description"><![CDATA[Użytkownicy należący do tej grupy mogą dodawać produkty.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditProduct"><![CDATA[Może edytować produkty]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditProduct.description"><![CDATA[Użytkownicy należący do tej grupy mogą edytować produkty.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteProduct"><![CDATA[Może usuwać produkty]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteProduct.description"><![CDATA[Użytkownicy należący do tej grupy mogą usuwać produkty.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListVersions"><![CDATA[Widzi listę wersji]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListVersions.description"><![CDATA[Użytkownicy należący do tej grupy widzą listę wersji.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddVersion"><![CDATA[Może dodawać wersje]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddVersion.description"><![CDATA[Użytkownicy należący do tej grupy mogą dodawać wersje.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditVersion"><![CDATA[Może edytować wersje]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditVersion.description"><![CDATA[Użytkownicy należący do tej grupy mogą edytować wersje.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteVersion"><![CDATA[Może usuwać wersje]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteVersion.description"><![CDATA[Użytkownicy należący do tej grupy mogą usuwać wersje.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListVersionItems"><![CDATA[Widzi wpisy]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canListVersionItems.description"><![CDATA[Użytkownicy należący do tej grupy widzą wpisy w changelog.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddVersionItem"><![CDATA[Może dodawać wpisy]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canAddVersionItem.description"><![CDATA[MUżytkownicy należący do tej grupy mogą dodawać wpisy w changelog.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditVersionItem"><![CDATA[Może edytować wpisy]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canEditVersionItem.description"><![CDATA[Użytkownicy należący do tej grupy mogą edytować wpisy w changelog.]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteVersionItem"><![CDATA[Może usuwać wpisy]]></item>
+		<item name="wcf.acp.group.option.admin.content.changelog.canDeleteVersionItem.description"><![CDATA[Użytkownicy należący do tej grupy mogą usuwać wpisy w changelog.]]></item>
+		<item name="wcf.acp.group.option.category.user.changelog"><![CDATA[Changelog]]></item>
+		<item name="wcf.acp.group.option.category.user.changelog.general"><![CDATA[Główne]]></item>
+		<item name="wcf.acp.group.option.user.changelog.canViewChangelog"><![CDATA[Widzi changelog]]></item>
+		<item name="wcf.acp.group.option.user.changelog.canViewChangelog.description"><![CDATA[Użytkownicy należący do tej grupy widzą changelog.]]></item>
+		<item name="wcf.acp.group.option.category.user.changelog.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.changelog.general.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_changelog"><![CDATA[Changelog]]></item>
+		<item name="wcf.acp.option.module_changelog.description"><![CDATA[Włącz system changelog.]]></item>
+		<item name="wcf.acp.option.category.changelog"><![CDATA[Changelog]]></item>
+		<item name="wcf.acp.option.category.changelog.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.changelog.version"><![CDATA[Wersje]]></item>
+		<item name="wcf.acp.option.category.changelog.version.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.changelog.version.validate"><![CDATA[Walidacja]]></item>
+		<item name="wcf.acp.option.category.changelog.version.validate.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.changelog_version_validate_regulary"><![CDATA[Wyrażenie regularne]]></item>
+		<item name="wcf.acp.option.changelog_version_validate_regulary.description"><![CDATA[Wpisz wyrażenie regularne na potwierdzenie tej wersji. (Pozostaw puste jeśli nie chcesz potwierdzić.)]]></item>
+	</category>
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.changelog"><![CDATA[Changelog]]></item>
+		<item name="wcf.acp.menu.link.content.changelog.listChangelogProducts"><![CDATA[Lista produktów]]></item>
+		<item name="wcf.acp.menu.link.content.changelog.addChangelogProduct"><![CDATA[Dodaj produkt]]></item>
+		<item name="wcf.acp.menu.link.content.changelog.listProductVersions"><![CDATA[Lista wersji]]></item>
+	</category>
+	<category name="wcf.acp.changelog">
+		<item name="wcf.acp.changelog.listProducts"><![CDATA[Lista produktów]]></item>
+		<item name="wcf.acp.changelog.listProduct.data"><![CDATA[W sumie {#$product|count} produktów]]></item>
+		<item name="wcf.acp.changelog.productID"><![CDATA[ID]]></item>
+		<item name="wcf.acp.changelog.productName"><![CDATA[Nazwa produktu]]></item>
+		<item name="wcf.acp.changelog.productVersions"><![CDATA[Wersja produktu]]></item>
+		<item name="wcf.acp.changelog.productDescription"><![CDATA[Opis]]></item>
+		<item name="wcf.acp.changelog.editProduct"><![CDATA[Edytuj produkt]]></item>
+		<item name="wcf.acp.changelog.deleteProduct"><![CDATA[Usuń produkt]]></item>
+		<item name="wcf.acp.changelog.deleteProduct.sure"><![CDATA[Czy na pewno chcesz usunąć ten produkt?]]></item>
+		<item name="wcf.acp.changelog.deleteProductVersion"><![CDATA[Usuń wersję]]></item>
+		<item name="wcf.acp.changelog.deleteProductVersion.sure"><![CDATA[Czy na pewno chcesz usunąć tą wersję?]]></item>
+		<item name="wcf.acp.changelog.deleteProductVersionItem"><![CDATA[Usuń wpis]]></item>
+		<item name="wcf.acp.changelog.deleteProductVersionItem.sure"><![CDATA[Czy na pewno chcesz usunąć ten wpis?]]></item>
+		<item name="wcf.acp.changelog.deleteProductVersion.success"><![CDATA[Wpis został pomyślnie usunięty.]]></item>
+		<item name="wcf.acp.changelog.addProduct"><![CDATA[Dodaj produkt]]></item>
+		<item name="wcf.acp.changelog.listProductVersions"><![CDATA[Lista wersji]]></item>
+		<item name="wcf.acp.changelog.addProduct"><![CDATA[Dodaj produkt]]></item>
+		<item name="wcf.acp.changelog.editProduct"><![CDATA[Edytuj produkt]]></item>
+		<item name="wcf.acp.changelog.addProduct.success"><![CDATA[Produkt {$changelogProductName} został pomyślnie dodany.]]></item>
+		<item name="wcf.acp.changelog.editProduct.success"><![CDATA[Produkt został pomyślnie zmieniony na {$changelogProductName}.]]></item>
+		<item name="wcf.acp.changelog.deleteProduct.success"><![CDATA[Produkt został pomyślnie usunięty.]]></item>
+		<item name="wcf.acp.changelog.changelogProductData"><![CDATA[Dane o produkcie]]></item>
+		<item name="wcf.acp.changelog.changelogProductName"><![CDATA[Nazwa produktu]]></item>
+		<item name="wcf.acp.changelog.changelogProductName.description"><![CDATA[Podaj nazwę tego produktu.]]></item>
+		<item name="wcf.acp.changelog.addProductVersion"><![CDATA[Dodaj wersjęproduktu]]></item>
+		<item name="wcf.acp.changelog.addProductVersionItem"><![CDATA[Dodaj wpis]]></item>
+		<item name="wcf.acp.changelog.product.noVersionItems"><![CDATA[Obecnie brak wpisów.]]></item>
+		<item name="wcf.acp.changelog.versionList.lastEdit"><![CDATA[Ostatnia edycja: ]]></item>
+		<item name="wcf.acp.changelog.editProductVersion"><![CDATA[Edytuj wersję produktu]]></item>
+		<item name="wcf.acp.changelog.editProductVersionItem"><![CDATA[Edytuj wpis]]></item>
+		<item name="wcf.acp.changelog.addProductVersion"><![CDATA[Dodaj wersję produktu]]></item>
+		<item name="wcf.acp.changelog.addProductVersion.success"><![CDATA[Wersja produktu {$changelogProductVersion} została pomyślnie dodana.]]></item>
+		<item name="wcf.acp.changelog.editProductVersion"><![CDATA[Edytuj wersję produktu]]></item>
+		<item name="wcf.acp.changelog.editProductVersion.success"><![CDATA[Wersja produktu została pomyślnie edytowana na {$changelogProductVersion}.]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersionData"><![CDATA[Dane wersji]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersion"><![CDATA[WErsja]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersion.description"><![CDATA[Wpisz numer wersji.]]></item>
+		<item name="wcf.acp.changelog.addProductVersionItem"><![CDATA[Dodaj wpis]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersionItemData"><![CDATA[Wprowadzanie danych]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersionItemTitle"><![CDATA[Nazwa]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersionItemTitle.description"><![CDATA[Podaj nazwę wpisu]]></item>,
+		<item name="wcf.acp.changelog.changelogProductVersionItemText"><![CDATA[Tekst]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersionItemText.description"><![CDATA[Wpisz tekst w wpisie. (BBCode jest dozwolone).]]></item>
+		<item name="wcf.acp.changelog.addProductVersionItem.success"><![CDATA[Wpis {$changelogProductVersionItemTitle} został pomyślnie dodany.]]></item>
+		<item name="wcf.acp.changelog.editProductVersionItem"><![CDATA[Dodaj wpis]]></item>
+		<item name="wcf.acp.changelog.editProductVersionItem.success"><![CDATA[Wpis {$changelogProductVersionItemTitle} został pomyślnie edytowany.]]></item>
+		<item name="wcf.acp.changelog.selectedProduct"><![CDATA[Wybierz produkt]]></item>
+	</category>
+	<category name="wcf.global">
+		<item name="wcf.global.error.exist"><![CDATA[Wpis w tej dziedzinie już istnieje.]]></item>
+		<item name="wcf.global.error.notValid"><![CDATA[Wpis w tej dziedzinie nie jest poprawny.]]></item>
+	</category>
+	<category name="wcf.changelog">
+		<item name="wcf.changelog.index.title"><![CDATA[Changelog]]></item>
+		<item name="wcf.changelog.description"><![CDATA[]]></item>
+		<item name="wcf.changelog.products"><![CDATA[Produkty]]></item>
+		<item name="wcf.changelog.selectedProduct"><![CDATA[Wybierz produkt]]></item>
+		<item name="wcf.changelog.product.notSelected"><![CDATA[Nie wybrałeś żadnego produktu.]]></item>
+		<item name="wcf.changelog.versionList.lastEdit"><![CDATA[Ostatnia edycja]]></item>
+		<item name="wcf.changelog.product.noVersionItems"><![CDATA[Obecnie nie ma żadnych produktów.]]></item>
+		<item name="wcf.changelog.productID"><![CDATA[ID]]></item>
+		<item name="wcf.changelog.productDescription"><![CDATA[Opis]]></item>
+		<item name="wcf.changelog.products.empty"><![CDATA[Brak produktów.]]></item>
+		<item name="wcf.changelog.product.noVersions"><![CDATA[Brak wersji.]]></item>
+		<item name="wcf.changelog.versionItem.general"><![CDATA[Głównel]]></item>
+		<item name="wcf.changelog.versionItem.product"><![CDATA[Produkt]]></item>
+		<item name="wcf.changelog.versionItem.assignedProduct"><![CDATA[Powiązany produkt]]></item>
+		<item name="wcf.changelog.versionItem.assignedVersion"><![CDATA[Powiązana wersja]]></item>
+		<item name="wcf.changelog.versionItem.user"><![CDATA[Użytkownik i data]]></item>
+		<item name="wcf.changelog.versionItem.username"><![CDATA[Nazwa użytkownika]]></item>
+		<item name="wcf.changelog.versionItem.date"><![CDATA[Data]]></item>
+	</category>
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.changelog"><![CDATA[Changelog]]></item>
+	</category>
 </language>
