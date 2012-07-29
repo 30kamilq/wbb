@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="pl">
+	<category name="wbb.global">
+		<item name="wbb.global.offlineMode"><![CDATA[Forum jest obecnie wyłączone]]></item>
+		<item name="wbb.global.offlineModeWithMessage"><![CDATA[Forum zostało wyłączone z następującego powodu:]]></item>
+	</category>
 	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.offlineMode"><![CDATA[Włącz/wyłącz forum]]></item>
+		<item name="wcf.acp.option.category.offlineMode.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.offlineMode.general"><![CDATA[Wyłącz tymczasowo forum]]></item>
+		<item name="wcf.acp.option.category.offlineMode.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.offlineMode"><![CDATA[Wyłącz forum]]></item>
+		<item name="wcf.acp.option.offlineMode.description"><![CDATA[Tutaj możesz tymczasowo wyłączyć forum np. z powodu konserwacji.]]></item>
+		<item name="wcf.acp.option.offlineMode_message"><![CDATA[Wiadomość]]></item>
+		<item name="wcf.acp.option.offlineMode_message.description"><![CDATA[Ta wiadomość będzie pokazywana, gdy forum będzie wyłączone.]]></item>
+		<item name="wcf.acp.option.offlineMode_excluded_pages"><![CDATA[Wykluczone strony]]></item>
+		<item name="wcf.acp.option.offlineMode_excluded_pages.description"><![CDATA[Proszę podać tutaj strony, do której użytkownik ma dostęp w czasie dezaktywacji forum]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canViewBoardOfflineMode"><![CDATA[Może korzystać z forum w trybie offline]]></item>
+		<item name="wcf.acp.group.option.user.board.canViewBoardOfflineMode.description"><![CDATA[Użytkownicy należący do tej grupy mogą korzystać z forum, gdy jest ono wyłączone.]]></item>
+	</category>	
 </language>
