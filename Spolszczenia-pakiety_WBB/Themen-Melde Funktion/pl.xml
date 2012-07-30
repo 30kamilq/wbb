@@ -5,9 +5,9 @@
 	
 	<category name="wcf.acp.group">
     <item name="wcf.acp.group.option.user.board.Thread.canReport"><![CDATA[Może raportować tematy?]]></item>
-		<item name="wcf.acp.group.option.user.board.Thread.canReport.description"><![CDATA[Użytkownicy z tej grupy mogą zgłaszać <strong>Tematy</strong>]]></item>
+		<item name="wcf.acp.group.option.user.board.Thread.canReport.description"><![CDATA[Użytkownicy należący do tej grupy mogą zgłaszać <strong>Tematy</strong>]]></item>
     <item name="wcf.acp.group.option.mod.board.threadReports.canSee"><![CDATA[Widzi raportowane tematy?]]></item>
-		<item name="wcf.acp.group.option.mod.board.threadReports.canSee.description"><![CDATA[Członkowie tych grup mogą przeglądać raportowane tematy.]]></item>
+		<item name="wcf.acp.group.option.mod.board.threadReports.canSee.description"><![CDATA[Użytkownicy należący do tej grupy mogą przeglądać raportowane tematy.]]></item>
 	</category>
   
   <category name="wcf.user">
