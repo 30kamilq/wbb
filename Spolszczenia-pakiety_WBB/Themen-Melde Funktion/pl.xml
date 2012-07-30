@@ -1,4 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+<!DOCTYPE language SYSTEM "DTD/language.dtd" >
+
+<language languagecode="pl">
 	
+	<category name="wcf.acp.group">
+    <item name="wcf.acp.group.option.user.board.Thread.canReport"><![CDATA[Może raportować tematy?]]></item>
+		<item name="wcf.acp.group.option.user.board.Thread.canReport.description"><![CDATA[Użytkownicy z tej grupy mogą zgłaszać <strong>Tematy</strong>]]></item>
+    <item name="wcf.acp.group.option.mod.board.threadReports.canSee"><![CDATA[Widzi raportowane tematy?]]></item>
+		<item name="wcf.acp.group.option.mod.board.threadReports.canSee.description"><![CDATA[Członkowie tych grup mogą przeglądać raportowane tematy.]]></item>
+	</category>
+  
+  <category name="wcf.user">
+    <item name="wcf.user.modreportthreads"><![CDATA[Raportowane tematy]]></item>
+  </category>
+  
+  <category name="wbb.thread.report">
+		<item name="wbb.thread.report.button"><![CDATA[Zgłoś temat]]></item>
+    <item name="wbb.thread.report.pagetitle"><![CDATA[&raquo;{$thread->topic}&laquo; zgłoś ten temat]]></item>
+    <item name="wbb.thread.report.pagetitle.description"><![CDATA[Temat napisany przez <a href="index.php?page=User&amp;userID={$thread->userID}">{$thread->username}</a> jest niezgodny z regulaminem? Zgłoś to tutaj!]]></item>
+    <item name="wbb.thread.report.informations"><![CDATA[Główne informacje]]></item>
+    <item name="wbb.thread.report.informations.description"><![CDATA[Poniższe dane zobaczy moderator przy sprawdzaniu raportu.]]></item>
+    <item name="wbb.thread.report.threadBy"><![CDATA[Autor tematu]]></item>
+    <item name="wbb.thread.report.threadDate"><![CDATA[Temat stworzony]]></item>
+    <item name="wbb.thread.report.report"><![CDATA[Wiadomość]]></item>
+    <item name="wbb.thread.report.label"><![CDATA[Treść wiadomości:]]></item>
+    <item name="wbb.thread.report.label.description"><![CDATA[Opisz tutaj dokładnie raportowany temat.]]></item>
+    <item name="wbb.thread.report.threads"><![CDATA[Zgłoszone tematy]]></item>
+    <item name="wbb.thread.report.threads.description"><![CDATA[{if $items == 1}Obecnie jest jeden zgłoszony temat{else}Obecnie jest {@$items} zgłoszonych tematów{/if}. Tutaj możesz przeglądać i zarządzać wszystkimi wiadomościami!]]></item>
+    <item name="wbb.thread.report.threads.by"><![CDATA[stworzony przez {$rThread.username}]]></item>
+    <item name="wbb.thread.report.threads.report"><![CDATA[zgłoszony]]></item>
+    <item name="wbb.thread.report.threads.why"><![CDATA[Temat &raquo;{@$rThread.topic}&laquo; dnia {@$rThread.date|time} został zgłoszony z następujących powodów:]]></item>
+    <item name="wbb.thread.report.noThreads"><![CDATA[Obecnie nie ma zgłoszonych tematów!]]></item>
+    <item name="wbb.thread.report.threadReport"><![CDATA[Zgłoszony temat &raquo;<a href="index.php?page=Thread&amp;threadID={$rThread.threadID}">{$rThread.topic}</a>&laquo;]]></item>
+    <item name="wbb.thread.report.threadIsReport"><![CDATA[Temat <a href="index.php?page=Thread&amp;threadID={@$rThread.threadID}">{@$rThread.topic}</a> (erstellt von {$rThread.threadUsername}) został zgłoszony przez {if $rThread.userID == 0}<strong>gościa</strong>{else}<a href="index.php?page=User&userID={$rThread.userID}"><strong>{$rThread.username->username}</strong></a>{/if}.]]></item>
+    <item name="wbb.thread.report.threadInformations"><![CDATA[Informacje o temacie:]]></item>
+    <item name="wbb.thread.report.thread.name"><![CDATA[Nazwa]]></item>
+    <item name="wbb.thread.report.threadTitle"><![CDATA[Nazwa tematu]]></item>
+    <item name="wbb.thread.report.reportDelete"><![CDATA[Chcesz usunąć ten raport?]]></item>
+    <item name="wbb.thread.report.success"><![CDATA[Dziękuję bardzo za zgłoszenie, temat zostanie sprawdzony w ciągu najbliższych kilku godzin przez moderatora]]></item>
+    <item name="wbb.thread.report.copyright"><![CDATA[<p class="smallFont"><strong>Themen-Meldefunktion</strong>, opracowany przez <a href="http://www.wbblite2.de">WBBLite2.de</a></p>]]></item> 
+    <item name="wbb.thread.report.usermessages"><![CDATA[Następujące posty są zgłoszone do moderacji:]]></item>
+    <item name="wbb.thread.report.usermessages.description"><![CDATA[<a href="index.php?page=ModReportThreads#report{$reportThread.reportID}"><img src="{@RELATIVE_WBB_DIR}icon/goToLastPostS.png" /> <a href="index.php?page=ModReportThreads#report{$reportThread.reportID}">{$reportThread.topic}</a> w dniu {@$reportThread.date|time} przez <img src="{@RELATIVE_WCF_DIR}icon/userS.png" /> <a href="index.php?page=User&amp;userID={$reportThread.userID}">{$reportThread.reportUsername}</a>]]></item>
+    <item name="wbb.thread.report.threadWasReported"><![CDATA[Ten temat zsotał już zgłoszony przez innego użytkownika.]]></item>
+
+   </category> 
+
+  <category name="wcf.help.item">
+    <item name="wcf.help.item.board.report"><![CDATA[Raportowanie tematu]]></item>
+		<item name="wcf.help.item.board.report.description"><![CDATA[<p><img src="icon/threadReport_help.png" alt="" class="helpImage" /> Jeśli widzisz temat niezgdony z regulaminem możesz go zgłosić do moderacji.]]></item> 
+  </category> 
+
+  
 </language>
