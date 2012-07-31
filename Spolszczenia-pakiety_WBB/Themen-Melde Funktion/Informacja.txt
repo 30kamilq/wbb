@@ -1,9 +1,9 @@
 Instrukcja instalacji spolszczenia dla WBB 3.1.x
-1. Pobierz FeedPoster: http://www.woltlab.com/pluginstore/plugin.html?pluginID=136
+1. Pobierz Themen-Melde Funktion (wymagana rejestracja): http://www.player4players.de/wbb3/index.php?page=DatabaseFile&fileID=104
 2. Zainstaluj pakiet
 3. Zaimportuj plik pl.xml z archiwum w Style -> Języki -> Dodaj nowy język
 
 Instrukcja instalacji spolszczenia dla WBB Lite 2.1
-1. Pobierz FeedPoster: http://www.woltlab.com/pluginstore/plugin.html?pluginID=136
+1. Pobierz Themen-Melde Funktion (wymagana rejestracja): http://www.player4players.de/wbb3/index.php?page=DatabaseFile&fileID=104
 2. Zainstaluj pakiet
-3. Pakiet FeedPosterpl.tar zaimportuj w System -> Pakiety -> Instaluj nowy pakiet
+3. Pakiet themen_melde.tar zaimportuj w System -> Pakiety -> Instaluj nowy pakiet
