@@ -388,8 +388,8 @@
 	</category>
 	<category name="wbb.global">
 		<item name="wbb.global.changeStyle"><![CDATA[Wybierz styl]]></item>
-		<item name="wbb.global.copyright"><![CDATA[<a href="http://www.woltlab.com">Silnik forum: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>WoltLab&reg; GmbH</strong></a> Spolszczenie: <a href="http://wbb-site.pl">wbb-site.pl</a>]]></item>
-		<item name="wbb.global.evaluation"><![CDATA[To oprogramowanie jest wersją testową.Czas pracy jest ograniczony do <strong>{@EVALUATION_END|fulldate}</strong>{if EVALUATION_END > TIME_NOW} ({@TIME_NOW|datediff:EVALUATION_END}){/if}.
+		<item name="wbb.global.copyright"><![CDATA[<a href="http://www.woltlab.com">Silnik forum: <strong>Burning Board&reg;{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>WoltLab&reg; GmbH</strong></a>, Spolszczenie: <a href="http://wbb-site.pl">wbb-site.pl</a>]]></item>
+		<item name="wbb.global.evaluation"><![CDATA[To oprogramowanie jest wersją testową. Czas pracy jest ograniczony do <strong>{@EVALUATION_END|fulldate}</strong>{if EVALUATION_END > TIME_NOW} ({@TIME_NOW|datediff:EVALUATION_END}){/if}.
 		Dla legalnego używania tego oprogramowania po tym terminie należy zakupić  <a href="http://www.woltlab.com">licencję</a>, lub usunąć to oprogramowanie z serwera.]]></item>
 		<item name="wbb.global.offline"><![CDATA[Forum jest wyłączone{if OFFLINE_MESSAGE != ''} z następującego powodu:{else}.{/if}]]></item>
 	</category>
