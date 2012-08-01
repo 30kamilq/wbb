@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.help.item">
+		<item name="wcf.help.item.board.userlevel"><![CDATA[Level Użytkownika]]></item>
+		<item name="wcf.help.item.board.userlevel.description"><![CDATA[<strong>Czym jest level użytkownika?</strong><p>Członkowie otrzymują punkty doświadczenia za każdy dzień po ich rejestracji i za każdy post oraz temat.Poziom użytkownika jest następnie obliczany z liczyby punktów doświadczenia jakie użytkownik posiada.</p>]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.userlevel_show"><![CDATA[Pokaż level użytkownika]]></item>
+		<item name="wcf.acp.option.userlevel_show.description"><![CDATA[Czy chcesz, aby level był wyświetlony w postach użytkownika?]]></item>
+		<item name="wcf.acp.option.userlevel_show_helplink"><![CDATA[Przejdź do pomocy]]></item>
+		<item name="wcf.acp.option.userlevel_show_helplink.description"><![CDATA[Czy chcesz, aby  link do pomocy był wyswietlany obok poziomu użytkownika?]]></item>
+		<item name="wcf.acp.option.userlevel_show_inprofile"><![CDATA[Pokaż level użytkownika]]></item>
+		<item name="wcf.acp.option.userlevel_show_inprofile.description"><![CDATA[Soll das Benutzerlevel im Profil des Benutzers angezeigt werden?]]></item>
+	</category>
+	<category name="net.hawkes.userlevel">
+		<item name="net.hawkes.userlevel.level"><![CDATA[Level:]]></item>
+		<item name="net.hawkes.userlevel.levelBar"><![CDATA[Level-Postęp]]></item>
+		<item name="net.hawkes.userlevel.experience"><![CDATA[Doświadczenie:]]></item>
+		<item name="net.hawkes.userlevel.nextlevel"><![CDATA[Do kolejnego levelu:]]></item>
+		<item name="net.hawkes.userlevel.needexp"><![CDATA[{@$needexp} Doświadczenie potrzebne do kolejnego levelu]]></item>
+	</category>	
 </language>
+
