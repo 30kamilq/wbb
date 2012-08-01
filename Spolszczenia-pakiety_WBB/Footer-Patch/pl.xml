@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.footercontent.general"><![CDATA[Główne]]></item>
+		<item name="wcf.acp.option.category.footercontent.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.footercontent_active"><![CDATA[Włącz]]></item>
+		<item name="wcf.acp.option.footercontent_active.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.footercontent_content"><![CDATA[Kod HTML]]></item>
+		<item name="wcf.acp.option.footercontent_content.description"><![CDATA[Wprowadź tutaj kod HTML.]]></item>
+		<item name="wcf.acp.option.category.footercontent"><![CDATA[FooterPatch]]></item>
+		<item name="wcf.acp.option.category.footercontent.description"><![CDATA[Wstaw kod HTML lub JavaScript, aby wyświetlić zawartość w stopce forum.]]></item>  
+		<item name="wcf.acp.option.footercontent_analytics_active"><![CDATA[Aktywuj]]></item>
+		<item name="wcf.acp.option.footercontent_analytics_active.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.footercontent_content_analytics"><![CDATA[Kod Javascript]]></item>            
+		<item name="wcf.acp.option.footercontent_content_analytics.description"><![CDATA[Wpisz kod który ma być wyświetlany pod prawami autorskimi w acp. Powinien to być kod z Google Analytics lub Piwik.]]></item>
+		<item name="wcf.acp.group.option.patch.canSeeFooterpatch2"><![CDATA[Widzi footerpatch (pod prawami autorskimi)]]></item>  
+		<item name="wcf.acp.group.option.patch.canSeeFooterpatch2.description"><![CDATA[Użytkownicy należący do tej grupy widząfooterpatch pod prawami autorskimi]]></item>  
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.board.patch"><![CDATA[Footer/Headerpatch]]></item>
+		<item name="wcf.acp.group.option.category.user.board.patch.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.patch.canSeeFootpatch"><![CDATA[Widzi FooterPatch]]></item>  
+		<item name="wcf.acp.group.option.patch.canSeeFootpatch.description"><![CDATA[Użytkownicy należący do tej grupy widzą FooterPatch]]></item>  
+	</category>
 </language>
