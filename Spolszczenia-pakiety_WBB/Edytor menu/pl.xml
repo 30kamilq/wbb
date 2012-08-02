@@ -1,4 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.pagemenu"><![CDATA[Menu strony]]></item>
+		<item name="wcf.acp.menu.link.pagemenu.management"><![CDATA[Zarządzanie menu strony]]></item>
+		<item name="wcf.acp.menu.link.pagemenu.add"><![CDATA[Dodaj link]]></item>
+	</category>
 	
+	<category name="wcf.acp.pagemenueditor">
+		<item name="wcf.acp.pagemenueditor.list.title"><![CDATA[Menu strony]]></item>
+		<item name="wcf.acp.pagemenueditor.list.title.description"><![CDATA[]]></item>
+		<item name="wcf.acp.pagemenueditor.add"><![CDATA[Dodaj link]]></item>
+		<item name="wcf.acp.pagemenueditor.list.header.title"><![CDATA[Header]]></item>
+		<item name="wcf.acp.pagemenueditor.list.footer.title"><![CDATA[Footer]]></item>
+		<item name="wcf.acp.pagemenueditor.title"><![CDATA[Nazwa]]></item>
+		<item name="wcf.acp.pagemenueditor.position"><![CDATA[Pozycja]]></item>
+		<item name="wcf.acp.pagemenueditor.showorder"><![CDATA[Sortowanie]]></item>
+		<item name="wcf.acp.pagemenueditor.header"><![CDATA[Header]]></item>
+		<item name="wcf.acp.pagemenueditor.footer"><![CDATA[Footer]]></item>
+		<item name="wcf.acp.pagemenueditor.delete.sure"><![CDATA[Jesteś pewien?]]></item>
+		<item name="wcf.acp.pagemenueditor.deleted.success"><![CDATA[Usuwanie zakończone.]]></item>
+		<item name="wcf.acp.pagemenueditor.edit.success"><![CDATA[Edytowanie zakończone.]]></item>
+		<item name="wcf.acp.pagemenueditor.add.success"><![CDATA[Dodawanie zakończone.]]></item>
+		<item name="wcf.acp.pagemenueditor.edit"><![CDATA[Edytuj link]]></item>
+		<item name="wcf.acp.pagemenueditor.values"><![CDATA[Edytuj]]></item>
+		<item name="wcf.acp.pagemenueditor.language"><![CDATA[Język]]></item>
+		<item name="wcf.acp.pagemenueditor.language.description"><![CDATA[Wybierz język.]]></item>
+		<item name="wcf.acp.pagemenueditor.name"><![CDATA[Nazwa]]></item>
+		<item name="wcf.acp.pagemenueditor.name.description"><![CDATA[Nazwa linku]]></item>
+		<item name="wcf.acp.pagemenueditor.position"><![CDATA[Pozycja]]></item>
+		<item name="wcf.acp.pagemenueditor.position.description"><![CDATA[Pozycja linku]]></item>
+		<item name="wcf.acp.pagemenueditor.link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.pagemenueditor.link.description"><![CDATA[Podaj link.]]></item>
+		<item name="wcf.acp.pagemenueditor.showorder.description"><![CDATA[Sorotwanie menu.]]></item>
+		<item name="wcf.acp.pagemenueditor.iconS"><![CDATA[Mała ikona]]></item>
+		<item name="wcf.acp.pagemenueditor.iconS.description"><![CDATA[Ikonka musi mieć wymiary 16px x 16px.]]></item>
+		<item name="wcf.acp.pagemenueditor.iconM"><![CDATA[Duża ikona]]></item>
+		<item name="wcf.acp.pagemenueditor.iconM.description"><![CDATA[Ikonka musi mieć wymiary 24px x 24px.]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.pagemenu"><![CDATA[Menu strony]]></item>
+		<item name="wcf.acp.group.option.category.admin.pagemenu.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.pageMenuEditor.canUse"><![CDATA[Może zarządzać menu]]></item>
+		<item name="wcf.acp.group.option.admin.pageMenuEditor.canUse.description"><![CDATA[Użytkownicy należący do tej grupy mogą zarządzać menu]]></item>
+	</category>
 </language>
