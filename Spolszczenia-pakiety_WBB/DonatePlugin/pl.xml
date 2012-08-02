@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.Donate"><![CDATA[Dotacja]]></item>
+		<item name="wcf.acp.option.category.Donate.data"><![CDATA[Szczegóły]]></item>
+		<item name="wcf.acp.option.category.Donate.data.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.Donate.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.Donate.general"><![CDATA[Główne]]></item>
+		<item name="wcf.acp.option.category.Donate.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.donate_additional_text"><![CDATA[Tekst nad przyciskiem dotacji]]></item>
+		<item name="wcf.acp.option.donate_additional_text.description"><![CDATA[Tutaj możesz wpisaćinformacje dt. dotacji.]]></item>
+		<item name="wcf.acp.option.donate_additional_text_enable_html"><![CDATA[Użyj HTML]]></item>
+		<item name="wcf.acp.option.donate_additional_text_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.donate_email_address"><![CDATA[Adres e-mail]]></item>
+		<item name="wcf.acp.option.donate_email_address.description"><![CDATA[Podaj adres e-mail do twojego konta PayPal.]]></item>
+		<item name="wcf.acp.option.module_donate"><![CDATA[Dotacja]]></item>
+		<item name="wcf.acp.option.module_donate.description"><![CDATA[Aktywuj dotacje.]]></item>
+	</category>
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.Donate"><![CDATA[Dotacja]]></item>
+	</category>
+	<category name="wcf.Donate">
+		<item name="wcf.Donate.additionalText"><![CDATA[Informacje]]></item>
+		<item name="wcf.Donate.title"><![CDATA[Dotacja]]></item>
+        <item name="wcf.Donate.paypalimg"><![CDATA[https://www.paypalobjects.com/en_US/DE/i/btn/btn_donateCC_LG.gif]]></item>
+	</category>
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.Donate"><![CDATA[<a href="index.php?page=Donate{SID_ARG_2ND}">Dotacja</a>]]></item>
+	</category>
 </language>
