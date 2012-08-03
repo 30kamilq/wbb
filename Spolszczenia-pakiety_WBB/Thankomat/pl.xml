@@ -128,4 +128,16 @@ Użytkownicy z uprawnieniem &quot;Może aktywować Podziękowania&quot; mogą zm
 		<item name="wcf.user.profile.thanklist.thanksgot"><![CDATA[Posty w których {@$user->username} otrzymał podziękowania:]]></item>
 		<item name="wcf.user.profile.thanklist.time"><![CDATA[Czas podziękowań]]></item>
 	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.hide_autoactivate_thx"><![CDATA[Automatycznie włączać Podziękowania?]]></item>
+		<item name="wcf.acp.option.hide_autoactivate_thx.description"><![CDATA[Jeżeli ta opcja jest aktywna skrypt automatycznie włącza Podziękwania w poście z ukrytą treścią.]]></item>
+		<item name="wcf.acp.option.hide_enable_thx"><![CDATA[Widoczne po podziękowaniu?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx.description"><![CDATA[Czy ukryta treść w [HIDE]-Tagu ma być widoczna po tym, jak użytkownik podziękował autorowi?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx_whole_thread"><![CDATA[Podziękowania pokazują całą ukrytą treść?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx_whole_thread.description"><![CDATA[Po aktywacji tej opcji, jeżeli użytkownik przyciśnie w temacie przycisk do podziękowania, to będzie mógł zobaczyć wszystkie ukryte treści w tym wątku.]]></item>
+	</category>
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.hide.nothx.postthank"><![CDATA[Ta treść została ukryta przez autora, aby ją odkryć <a href="index.php?action=Thank&amp;postID={@$container->postID}{@SID_ARG_2ND}" onClick="thankOmat.thankPost({$container->postID}); return false;"><img src="{@RELATIVE_WBB_DIR}icon/thankS.png" alt="" name="thankImg{@$container->postID}" /> podziękuj mu</a>, albo <a href="index.php?form=PostAdd&amp;threadID={@$container->threadID}{@SID_ARG_2ND}">napisz odpowiedź w tym temacie</a>.]]></item>
+		<item name="wcf.bbcode.hide.nothx.thank"><![CDATA[Ta treść została ukryta przez autora, aby ją odkryć <a href="index.php?action=Thank&amp;postID={@$container->postID}{@SID_ARG_2ND}" onClick="thankOmat.thankPost({$container->postID}); return false;"><img src="{@RELATIVE_WBB_DIR}icon/thankS.png" alt="" name="thankImg{@$container->postID}" /> podziękuj mu</a>.]]></item>
+	</category>
 </language>
