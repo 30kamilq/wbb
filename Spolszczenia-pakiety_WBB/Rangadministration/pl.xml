@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE language SYSTEM "DTD/language.dtd">
+<language languagecode="pl">
+
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.ranks"><![CDATA[Rangi]]></item>
+		<item name="wcf.acp.menu.link.ranks.list"><![CDATA[Lista rang]]></item>
+		<item name="wcf.acp.menu.link.ranks.add"><![CDATA[Dodaj rangę]]></item>
+	</category>
+	
+	<category name="wcf.acp">
+		<item name="wcf.acp.ranks"><![CDATA[Rangi]]></item>
+	
+		<item name="wcf.acp.ranks.add"><![CDATA[Dodaj rangę]]></item>
+		<item name="wcf.acp.ranks.list"><![CDATA[Lista rang]]></item>
+		<item name="wcf.acp.ranks.edit"><![CDATA[Edytuj rangę]]></item>
+		
+		<item name="wcf.acp.ranks.count"><![CDATA[W sumie {$ranks|count} rang]]></item>
+		<item name="wcf.acp.ranks.list.rankid"><![CDATA[ID rangi]]></item>
+		<item name="wcf.acp.ranks.list.ranktitle"><![CDATA[Nazwa rangi]]></item>
+		<item name="wcf.acp.ranks.list.rankimage"><![CDATA[Obrazek rangi]]></item>
+		<item name="wcf.acp.ranks.list.usergroup"><![CDATA[Grupa]]></item>
+		<item name="wcf.acp.ranks.list.neededpoints"><![CDATA[Potrzebne posty]]></item>
+		<item name="wcf.acp.ranks.list.gender"><![CDATA[Płeć]]></item>
+		<item name="wcf.acp.ranks.list.deletenote"><![CDATA[Czy na pewno?]]></item>
+		
+		<item name="wcf.acp.ranks.general"><![CDATA[Główne opcje]]></item>
+		<item name="wcf.acp.ranks.rules"><![CDATA[Zasady]]></item>
+		
+		<item name="wcf.acp.ranks.ranktitle"><![CDATA[Nazwa rangi]]></item>
+		<item name="wcf.acp.ranks.ranktitle.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.ranks.rankimage"><![CDATA[Obrazek rangi]]></item>
+		<item name="wcf.acp.ranks.rankimage.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.ranks.repeatimage"><![CDATA[Wysokość obrazka]]></item>
+		<item name="wcf.acp.ranks.repeatimage.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.ranks.groupid"><![CDATA[Grupa]]></item>
+		<item name="wcf.acp.ranks.groupid.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.ranks.neededpoints"><![CDATA[Potrzebne posty]]></item>
+		<item name="wcf.acp.ranks.neededpoints.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.ranks.gender"><![CDATA[Płeć]]></item>
+		<item name="wcf.acp.ranks.gender.description"><![CDATA[]]></item>
+		
+				
+		<item name="wcf.acp.ranks.edit.success"><![CDATA[Sukces!]]></item>
+		<item name="wcf.acp.ranks.add.success"><![CDATA[Sukces!]]></item>
+	</category>
+	
 	
 </language>
