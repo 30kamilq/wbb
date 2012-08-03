@@ -1,4 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+<language languagecode="pl" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wbb.acp.board">
+		<item name="wbb.acp.board.permissions.canActivateThank"><![CDATA[Może aktywować podziękowania]]></item>
+		<item name="wbb.acp.board.permissions.canThank"><![CDATA[Może podziękować]]></item>
+	</category>
+	<category name="wbb.acp.updateCounters">
+		<item name="wbb.acp.updateCounters.counter.activateThankbot"><![CDATA[Aktywuj podziękowania później]]></item>
+	</category>
+	<category name="wbb.board">
+		<item name="wbb.board.threads.thankomat"><![CDATA[<img src="icon/thankS.png" alt="" title="{$thanks} użytkownicy podziękowali za posty w tym wątku" />]]></item>
+	</category>
+	<category name="wbb.thread">
+		<item name="wbb.thread.button.thank"><![CDATA[Podziękuj za ten temat]]></item>
+		<item name="wbb.thread.post.button.thank"><![CDATA[Podziękuj]]></item>
+		<item name="wbb.thread.post.credits.thank"><![CDATA[Podziękuj]]></item>
+		<item name="wbb.thread.post.thank.activated"><![CDATA[Aktywowałeś możliwość podziękowania w tym poście.]]></item>
+		<item name="wbb.thread.post.thank.deleteGuest"><![CDATA[Usuń podziękownaia gości]]></item>
+		<item name="wbb.thread.post.thank.deleteUser"><![CDATA[Usuń to podziękowanie]]></item>
+		<item name="wbb.thread.post.thank.largeLink"><![CDATA[Kliknij tutaj, aby podziękować autorowi za ten post.]]></item>
+		<item name="wbb.thread.post.thank.stats"><![CDATA[{if $postThanks.users|isset}{@$postThanks.users|count} zarejestrownay użytkownik{if $postThanks.users|count != 1}ów{/if} {if $postThanks.guests|isset}i {/if}{/if}{if $postThanks.guests|isset}{@$postThanks.guests} goś{if $postThanks.guests < 2}ć{/if}{if $postThanks.guests != 1}ci{/if} {/if}podziękowało już.]]></item>
+		<item name="wbb.thread.post.thank.users"><![CDATA[Użytkownicy, którzy podziękowali za ten post:]]></item>
+		<item name="wbb.thread.thank.authorException"><![CDATA[Co?]]></item>
+		<item name="wbb.thread.thank.permissionDenied"><![CDATA[Dostęp zabroniony]]></item>
+		<item name="wbb.thread.thank.thankedException"><![CDATA[Podziękowałeś za ten post!]]></item>
+	</category>
+	<category name="wbb.threadAdd">
+		<item name="wbb.threadAdd.settings.hastThank"><![CDATA[Aktywuj Podziękowania]]></item>
+		<item name="wbb.threadAdd.settings.hastThank.description"><![CDATA[Aktywuj możliwość podziękowania w tym poście.]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canActivateThank"><![CDATA[Może aktywować podziękowania]]></item>
+		<item name="wcf.acp.group.option.user.board.canActivateThank.description"><![CDATA[Użytkownicy należący do tej grupy mogą aktywować możliwość podziękowania w postach.]]></item>
+		<item name="wcf.acp.group.option.user.board.canDeleteOwnThank"><![CDATA[Może usuwać swoje podziękowania]]></item>
+		<item name="wcf.acp.group.option.user.board.canDeleteOwnThank.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.board.canDeleteThank"><![CDATA[Może usuwać podziękowania każdego użytkownika]]></item>
+		<item name="wcf.acp.group.option.user.board.canDeleteThank.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.board.canThank"><![CDATA[Może podziękować]]></item>
+		<item name="wcf.acp.group.option.user.board.canThank.description"><![CDATA[Użytkownicy należący do tej grupy mogą podziękować innym za ich posty.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.activity_points_per_thanks_given"><![CDATA[Punkty za podziękowanie]]></item>
+		<item name="wcf.acp.option.activity_points_per_thanks_given.description"><![CDATA[Wpisz liczbę punktów, które dostaje się za podziękowanie.]]></item>
+		<item name="wcf.acp.option.activity_points_per_thanks_got"><![CDATA[Punkty zdobyte za podziękowania]]></item>
+		<item name="wcf.acp.option.activity_points_per_thanks_got.description"><![CDATA[Wpisz liczbę punktów, które się dostaje, gdy otrzyma się podziękownaie.]]></item>
+		<item name="wcf.acp.option.category.post.thank"><![CDATA[Podziękowania]]></item>
+		<item name="wcf.acp.option.category.post.thank.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.thank"><![CDATA[Podziękowania]]></item>
+		<item name="wcf.acp.option.category.thank.behaviour"><![CDATA[Zachowanie]]></item>
+		<item name="wcf.acp.option.category.thank.behaviour.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.thank.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.thank.details"><![CDATA[Statystyki / Detale]]></item>
+		<item name="wcf.acp.option.category.thank.details.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.thank.list"><![CDATA[Lista podziękowań]]></item>
+		<item name="wcf.acp.option.category.thank.list.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.thank.position"><![CDATA[Pozycjonowanie]]></item>
+		<item name="wcf.acp.option.category.thank.position.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.thanks_autoenable"><![CDATA[Automatyczna aktywacja możliwości Podziękowania]]></item>
+		<item name="wcf.acp.option.thanks_autoenable.description"><![CDATA[Możesz wybrać, aby możliwość Podziękowania aktywował się w każdym postu, albo pierwszeym postu w temacie automatycznie.<br />
+Użytkownicy z uprawnieniem &quot;Może aktywować Podziękowania&quot; mogą zmienić tę opcję w swoich postach!]]></item>
+		<item name="wcf.acp.option.thanks_autoenable.option0"><![CDATA[Nie aktywuj możliwości Podziękowania automatycznie]]></item>
+		<item name="wcf.acp.option.thanks_autoenable.option1"><![CDATA[Automatycznie aktywuj możliwość Podziękowania w pierwszym poście każdego tematu]]></item>
+		<item name="wcf.acp.option.thanks_autoenable.option2"><![CDATA[Zawsze automatycznie aktywuj możliwość Podziękowania]]></item>
+		<item name="wcf.acp.option.thanks_bigbutton"><![CDATA[Duży przycisk podziękowania]]></item>
+		<item name="wcf.acp.option.thanks_bigbutton.description"><![CDATA[Jeśli ta opcja jest włączona, przycisk &quot;podziękuj&quot; w pierwszym poście nie pojawi się. Zamiast tego duży przycisk pojawi się na lewo od &quot;odpowiedz&quot;.]]></item>
+		<item name="wcf.acp.option.thanks_deleteguestthx"><![CDATA[Automatycznie usuń podziękowania gości]]></item>
+		<item name="wcf.acp.option.thanks_deleteguestthx.description"><![CDATA[Jeżeli ta opcja jest aktywna podziękowania gości zostaną usunięte po 24 godzinach.]]></item>
+		<item name="wcf.acp.option.thanks_firstpostonly"><![CDATA[Podziękowania tylko w pierwszym poście]]></item>
+		<item name="wcf.acp.option.thanks_firstpostonly.description"><![CDATA[Jeżeli ta opcja jest aktywna Podziękowania może być aktywowany tylko w pierwszym poście tematu.]]></item>
+		<item name="wcf.acp.option.thanks_linkpos"><![CDATA[Pozycja przycisku]]></item>
+		<item name="wcf.acp.option.thanks_linkpos.description"><![CDATA[Gdzie powinien przycisk/link do podziękowania autorowi być pokazany?]]></item>
+		<item name="wcf.acp.option.thanks_linkpos.option0"><![CDATA[Jako przycisk w dolnym rzędzie przycisków]]></item>
+		<item name="wcf.acp.option.thanks_linkpos.option1"><![CDATA[Jako link tekstowy nad listą podziękowań]]></item>
+		<item name="wcf.acp.option.thanks_list_enable_user_online_marking"><![CDATA[Użyj widoku &quot;Kto jest online&quot;]]></item>
+		<item name="wcf.acp.option.thanks_list_enable_user_online_marking.description"><![CDATA[Wyświetl nazwy na liście podziękowań taką samą metodą, jaka jest w &quot;Kto jest online&quot;.]]></item>
+		<item name="wcf.acp.option.thanks_list_givecount"><![CDATA[Liczba podziękowań, jakie użytkownik dał]]></item>
+		<item name="wcf.acp.option.thanks_list_givecount.description"><![CDATA[Ile podziękowań powinno być widocznych na stronę? 0 dezaktywuje listę.]]></item>
+		<item name="wcf.acp.option.thanks_list_gotcount"><![CDATA[Liczba podziękowań, jakie użytkownik otrzymał]]></item>
+		<item name="wcf.acp.option.thanks_list_gotcount.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.thanks_openstatics"><![CDATA[Otwórz statystyki automatycznie]]></item>
+		<item name="wcf.acp.option.thanks_openstatics.description"><![CDATA[Jeżeli ta opcja jest aktywna lista użytkowników, która podziękowała jest automatycznie ładowana.]]></item>
+		<item name="wcf.acp.option.thanks_position"><![CDATA[Pozycja wybierania]]></item>
+		<item name="wcf.acp.option.thanks_position.description"><![CDATA[Możesz wybrać, gdzie ma być wyświetlana pozycja Podziękowania. Możesz też edytować szablon postThankSetting, aby dopasować pozycję do stylu.]]></item>
+		<item name="wcf.acp.option.thanks_position.option0"><![CDATA[Na karcie "ustawienia"]]></item>
+		<item name="wcf.acp.option.thanks_position.option1"><![CDATA[Powyżej przycisków "Wyślij", "Podgląd" i "Reset"]]></item>
+		<item name="wcf.acp.option.thanks_position.option2"><![CDATA[W polu wyboru "Informacje"]]></item>
+		<item name="wcf.acp.option.thanks_securitytoken"><![CDATA[Zabezpieczone znakiem]]></item>
+		<item name="wcf.acp.option.thanks_securitytoken.description"><![CDATA[Jeżeli ta opcja jest aktywna dawanie podziękowań będzie zabezpieczone znakiem. Usuwanie podziękowań jest zawsze zabezpieczone!]]></item>
+		<item name="wcf.acp.option.thanks_showcount"><![CDATA[Pokaż licznik podziękowań]]></item>
+		<item name="wcf.acp.option.thanks_showcount.description"><![CDATA[Z tą opcją będzie pokazywane ile podziękowań użytkownik dostał i dał w każdym poście oraz w profilu użytkowników.]]></item>
+		<item name="wcf.acp.option.thanks_showcount.option0"><![CDATA[Nie pokazuj licznika podziękowań]]></item>
+		<item name="wcf.acp.option.thanks_showcount.option1"><![CDATA[Pokazuj ile podziękowań użytkownik dostał]]></item>
+		<item name="wcf.acp.option.thanks_showcount.option2"><![CDATA[Pokazuj ile podziękowań użytkownik dostał i dał]]></item>
+		<item name="wcf.acp.option.thanks_showcountinthreadlist"><![CDATA[Pokazuj licznik w liście tematów]]></item>
+		<item name="wcf.acp.option.thanks_showcountinthreadlist.description"><![CDATA[To pokazuje licznik w liście tematów, jak wiele ludzi podziękowało za posty w temacie.]]></item>
+		<item name="wcf.acp.option.thanks_showlist"><![CDATA[Aktywuj listę]]></item>
+		<item name="wcf.acp.option.thanks_showlist.description"><![CDATA[Z tą opcją lista jest pokazywana jak karta profilu.]]></item>
+		<item name="wcf.acp.option.thanks_showlistlink"><![CDATA[Linki podziękowań]]></item>
+		<item name="wcf.acp.option.thanks_showlistlink.description"><![CDATA[Dodaje linki do listy w liczniku podziękowań, w każdym poście.]]></item>
+		<item name="wcf.acp.option.thanks_showremark"><![CDATA[Pokaż informację, jeśli Podziękowania są aktywowane]]></item>
+		<item name="wcf.acp.option.thanks_showremark.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.thanks_showtime"><![CDATA[Pokaż czas podziękowań]]></item>
+		<item name="wcf.acp.option.thanks_showtime.description"><![CDATA[Z tą opcją możesz zobaczy kiedy podziękowano na liście użytkowników, którzy podziękowali za posta.]]></item>
+		<item name="wcf.acp.option.thanks_showtime.option0"><![CDATA[Wyłączone]]></item>
+		<item name="wcf.acp.option.thanks_showtime.option1"><![CDATA[Pokaż datę]]></item>
+		<item name="wcf.acp.option.thanks_showtime.option2"><![CDATA[Pokaż datę i godzinę]]></item>
+		<item name="wcf.acp.option.thanks_sort"><![CDATA[Sortuj podziękowania]]></item>
+		<item name="wcf.acp.option.thanks_sort.description"><![CDATA[Jak użytkownicy, którzy podziękowali powinni być sortowani na liście?]]></item>
+		<item name="wcf.acp.option.thanks_sort.option0"><![CDATA[Według nazw użytkownika (A-Z)]]></item>
+		<item name="wcf.acp.option.thanks_sort.option1"><![CDATA[Według nazw użytkownika (Z-A)]]></item>
+		<item name="wcf.acp.option.thanks_sort.option2"><![CDATA[Według daty podziękowania (najstarsza pierwsza)]]></item>
+		<item name="wcf.acp.option.thanks_sort.option3"><![CDATA[Według daty podziękowania (najnowsza pierwsza)]]></item>
+	</category>
+	<category name="wcf.user">
+		<item name="wcf.user.thanks_given"><![CDATA[Rozdane podziękowania]]></item>
+		<item name="wcf.user.thanks_got"><![CDATA[Otrzymane podziękowania]]></item>
+	</category>
+	<category name="wcf.user.profile">
+		<item name="wcf.user.profile.menu.link.thanklist"><![CDATA[Podziękowania]]></item>
+		<item name="wcf.user.profile.thanklist.board"><![CDATA[Forum]]></item>
+		<item name="wcf.user.profile.thanklist.guest"><![CDATA[Gość]]></item>
+		<item name="wcf.user.profile.thanklist.nothanksgiven"><![CDATA[Użytkownik nie podziękował nikomu.]]></item>
+		<item name="wcf.user.profile.thanklist.nothanksgot"><![CDATA[Nikt nie podziękował temu użytkownikowi.]]></item>
+		<item name="wcf.user.profile.thanklist.postAuthor"><![CDATA[Autor postu]]></item>
+		<item name="wcf.user.profile.thanklist.subject"><![CDATA[Temat]]></item>
+		<item name="wcf.user.profile.thanklist.thankingUser"><![CDATA[Użytkownik dziękujący]]></item>
+		<item name="wcf.user.profile.thanklist.thanksgiven"><![CDATA[Posty w których {@$user->username} podziękował:]]></item>
+		<item name="wcf.user.profile.thanklist.thanksgot"><![CDATA[Posty w których {@$user->username} otrzymał podziękowania:]]></item>
+		<item name="wcf.user.profile.thanklist.time"><![CDATA[Czas podziękowań]]></item>
+	</category>
 </language>
