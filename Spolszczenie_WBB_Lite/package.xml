@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="pl.language.wbb">
+<package name="pl.language.wbb_lite">
   <packageinformation>
     <packagename>Polish language for Burning Board Lite</packagename>
     <packagedescription>Polish language for Burning Board Lite</packagedescription>
     <version>1.0.0</version>
-    <date>2012-07-13</date>
+    <date>2012-08-04</date>
 
    
     <plugin>com.woltlab.wbb</plugin>
