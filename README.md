@@ -1,5 +1,7 @@
 <h1>Spolszczenie do WoltLab Burning Board</h1>
 
+Repozytorium "wbb" należące do polskiego supportu - WBB-site.pl
+
 <h2>Licencja</h2>
 
 1. Zabrania sie rozpowszechniania/reuploadowania spolszczenia bez zgody autorów (WBB-site.pl) (wyjatek- bezpośrednie
