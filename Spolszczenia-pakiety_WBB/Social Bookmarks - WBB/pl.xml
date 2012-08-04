@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+	<category name="wbb.socialBookmark">
+		<item name="wbb.socialBookmark.thread"><![CDATA[Podziel się]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.admin.socialBookmark"><![CDATA[Social bookmarks]]></item>
+		<item name="wcf.acp.group.option.category.admin.socialBookmark.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canAddSocialBookmarkProvider"><![CDATA[Może dodawać nowe serwisy]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canAddSocialBookmarkProvider.description"><![CDATA[Użytkownicy należący do tej grupy mogą dodawać nowe serwisy.]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canDeleteSocialBookmarkProvider"><![CDATA[Może usuwać istniejące serwisy]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canDeleteSocialBookmarkProvider.description"><![CDATA[Użytkownicy należący do tej grupy mogą usuwać istniejące serwisy.]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canEditSocialBookmarkProvider"><![CDATA[Może edytować istniejące serwisy]]></item>
+		<item name="wcf.acp.group.option.admin.socialBookmark.canEditSocialBookmarkProvider.description"><![CDATA[Użytkownicy należący do tej grupy mogą edytować istniejące serwisy.]]></item>
+	</category>
+	
+	<category name="wcf.acp.menu">
+		<item name="wcf.acp.menu.link.content.socialBookmark"><![CDATA[Social bookmarks]]></item>
+		<item name="wcf.acp.menu.link.socialBookmark.provider.add"><![CDATA[Dodaj serwis]]></item>
+		<item name="wcf.acp.menu.link.socialBookmark.provider.list"><![CDATA[Lista serwisów]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_social_bookmark"><![CDATA[Social Bookmarks]]></item>
+		<item name="wcf.acp.option.module_social_bookmark.description"><![CDATA[Umożliwia korzystanie z Social Bookmarks.]]></item>
+	</category>
+	
+	<category name="wcf.acp.socialBookmark">
+		<item name="wcf.acp.socialBookmark.provider.add"><![CDATA[Dodaj serwis]]></item>
+		<item name="wcf.acp.socialBookmark.provider.add.success"><![CDATA[Serwis społecznościowy został pomyślnie dodany.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.delete"><![CDATA[Usuń serwis]]></item>
+		<item name="wcf.acp.socialBookmark.provider.delete.success"><![CDATA[Serwis społecznościowy został pomyślnie usunięty.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.delete.sure"><![CDATA[Czy na pewno chcesz usunąć ten serwis społecznościowy?]]></item>
+		<item name="wcf.acp.socialBookmark.provider.disable"><![CDATA[Wyłącz serwis]]></item>
+		<item name="wcf.acp.socialBookmark.provider.edit"><![CDATA[Edytuj serwis]]></item>
+		<item name="wcf.acp.socialBookmark.provider.edit.success"><![CDATA[Serwis społecznościowy został pomyślnie edytowany.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.enable"><![CDATA[Włącz serwis]]></item>
+		<item name="wcf.acp.socialBookmark.provider.error.notUnique"><![CDATA[Ten serwis społecznościowy już istnieje.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.error.url"><![CDATA[Format adresu URL jest nieprawidłowy.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.general"><![CDATA[Główne]]></item>
+		<item name="wcf.acp.socialBookmark.provider.providerID"><![CDATA[ID]]></item>
+		<item name="wcf.acp.socialBookmark.provider.providerImage"><![CDATA[Ikona serwisu]]></item>
+		<item name="wcf.acp.socialBookmark.provider.providerImage.description"><![CDATA[Wpisz tutaj ścieżkę do ikony serwisu (w stosunku do folderu WCF).]]></item>
+		<item name="wcf.acp.socialBookmark.provider.title"><![CDATA[Nazwa]]></item>
+		<item name="wcf.acp.socialBookmark.provider.title.description"><![CDATA[Podaj tutaj nazwę serwisu społecznościowego.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.showOrder"><![CDATA[Sortowanie]]></item>
+		<item name="wcf.acp.socialBookmark.provider.showOrder.description"><![CDATA[Proszę podać numer pozycji dla tego serwisu społecznościowego. Serwisy są sortowane według tych numerów.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.url"><![CDATA[Adres]]></item>
+		<item name="wcf.acp.socialBookmark.provider.url.description"><![CDATA[Wpisz tutaj adres do serwisu, w tym miejsce pochodzenia linku i nazwę reprezentowaną przez znak '%s'. Oto przykład oparty na serwisie Facebook: http://www.facebook.com/sharer.php?u=%s&amp;t=%s]]></item>
+		<item name="wcf.acp.socialBookmark.provider.list"><![CDATA[Serwisy społecznościowe]]></item>
+		<item name="wcf.acp.socialBookmark.provider.list.count"><![CDATA[W sumie {if $items == 1}jest jeden serwis społecznościowy{else}jest {#$items} serwisów społecznościowych{/if}.]]></item>
+		<item name="wcf.acp.socialBookmark.provider.list.count.noEntries"><![CDATA[Obecnie nie ma żadnych serwisów społecznościowych.]]></item>
+	</category>
+</language>
