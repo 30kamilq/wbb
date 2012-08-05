@@ -45,7 +45,7 @@
 		<item name="wcf.acp.socialBookmark.provider.title.description"><![CDATA[Podaj tutaj nazwę serwisu społecznościowego.]]></item>
 		<item name="wcf.acp.socialBookmark.provider.showOrder"><![CDATA[Sortowanie]]></item>
 		<item name="wcf.acp.socialBookmark.provider.showOrder.description"><![CDATA[Proszę podać numer pozycji dla tego serwisu społecznościowego. Serwisy są sortowane według tych numerów.]]></item>
-		<item name="wcf.acp.socialBookmark.provider.url"><![CDATA[Adres]]></item>
+		<item name="wcf.acp.socialBookmark.provider.url"><![CDATA[Adres URL]]></item>
 		<item name="wcf.acp.socialBookmark.provider.url.description"><![CDATA[Wpisz tutaj adres do serwisu, w tym miejsce pochodzenia linku i nazwę reprezentowaną przez znak '%s'. Oto przykład oparty na serwisie Facebook: http://www.facebook.com/sharer.php?u=%s&amp;t=%s]]></item>
 		<item name="wcf.acp.socialBookmark.provider.list"><![CDATA[Serwisy społecznościowe]]></item>
 		<item name="wcf.acp.socialBookmark.provider.list.count"><![CDATA[W sumie {if $items == 1}jest jeden serwis społecznościowy{else}jest {#$items} serwisów społecznościowych{/if}.]]></item>
