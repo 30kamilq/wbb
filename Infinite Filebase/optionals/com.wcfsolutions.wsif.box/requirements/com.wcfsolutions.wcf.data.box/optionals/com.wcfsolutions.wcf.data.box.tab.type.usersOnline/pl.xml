@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.tab.option.usersOnline.enableLegend"><![CDATA[Legende der Benutzergruppen unter der Benutzer-Online-Liste anzeigen]]></item>
+		<item name="wcf.acp.box.tab.option.usersOnline.enableLegend.description"><![CDATA[Unter der Benutzer-Online-Liste wird eine Legende zu den Benutzergruppen angezeigt, wenn diese Option aktiviert ist. Es werden nur die Benutzergruppen angezeigt, für die eine spezielle Formatierung eingestellt wurde. Sie finden die Einstellungen dafür bei &quot;Benutzergruppe bearbeiten&quot;.]]></item>
+		<item name="wcf.acp.box.tab.type.usersOnline"><![CDATA[Benutzer-Online]]></item>
+	</category>
+	<category name="wcf.box">
+		<item name="wcf.box.tab.usersOnline"><![CDATA[Zur Zeit {if $boxTabData.usersOnlineTotal == 1}ist{else}sind{/if} {#$boxTabData.usersOnlineTotal} Benutzer online:]]></item>
+		<item name="wcf.box.tab.usersOnline.detail"><![CDATA[{if $boxTabData.usersOnlineMembers > 0}{#$boxTabData.usersOnlineMembers} Mitglied{if $boxTabData.usersOnlineMembers != 1}er{/if}{/if}{if $boxTabData.usersOnlineInvisible > 0} (davon {#$boxTabData.usersOnlineInvisible} unsichtbar){/if}{if $boxTabData.usersOnlineGuests > 0 && $boxTabData.usersOnlineMembers > 0} und{/if}{if $boxTabData.usersOnlineGuests > 0} {#$boxTabData.usersOnlineGuests} Besucher{/if}]]></item>
+	</category>
+</language>

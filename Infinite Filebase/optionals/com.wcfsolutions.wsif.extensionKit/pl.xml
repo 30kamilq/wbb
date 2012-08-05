@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.index_enable_online_list"><![CDATA[Benutzer-Online-Liste anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in der gesamten Filebase aktiv sind?]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Nur registrierte Benutzer im Benutzer-Online-Rekord zählen]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests.description"><![CDATA[Sollen bei der Ermittelung des Benutzer-Online-Rekords ausschließlich registrierte Benutzer gezählt werden?]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend"><![CDATA[Legende der Benutzergruppen unter der Benutzer-Online-Liste anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend.description"><![CDATA[Soll unter der Benutzer-Online-Liste eine Legende zu den Benutzergruppen angezeigt werden, sofern für diese eine spezielle Formatierung eingestellt wurde?]]></item>
+		<item name="wcf.acp.option.category_list_enable_online_list"><![CDATA[Aktive Benutzer der jeweiligen Kategorie anzeigen]]></item>
+		<item name="wcf.acp.option.category_list_enable_online_list.description"><![CDATA[Sollen zu jeder Kategorie die gerade aktiven Benutzer dieser Kategorie angezeigt werden?]]></item>
+		<item name="wcf.acp.option.category_enable_online_list"><![CDATA[Aktive Benutzer anzeigen]]></item>
+		<item name="wcf.acp.option.category_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in der jeweiligen Kategorie aktiv sind?]]></item>
+		<item name="wcf.acp.option.entry_enable_online_list"><![CDATA[Aktive Benutzer anzeigen]]></item>
+		<item name="wcf.acp.option.entry_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in dem jeweiligen Eintrag aktiv sind?]]></item>
+	</category>
+	<category name="wsif.category">
+		<item name="wsif.category.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} neben Ihnen {#$usersOnlineTotal} Benutzer in dieser Kategorie unterwegs:]]></item>
+	</category>
+	<category name="wsif.entry">
+		<item name="wsif.entry.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} neben Ihnen {#$usersOnlineTotal} Benutzer in diesem Eintrag unterwegs:]]></item>
+	</category>
+	<category name="wsif.global">
+		<item name="wsif.global.extensionKit.copyright"><![CDATA[<a href="http://www.woltlab.com/de/">Basis: <strong>Community Framework&trade;{if SHOW_VERSION_NUMBER} {@WCF_VERSION}{/if}</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a>]]></item>
+	</category>
+	<category name="wsif.header">
+		<item name="wsif.header.userMenu.pm"><![CDATA[Private Nachrichten]]></item>
+		<item name="wsif.header.userMenu.userGroupLeader"><![CDATA[Gruppenleitung]]></item>
+	</category>
+	<category name="wsif.header">
+		<item name="wsif.pm.notification.report"><![CDATA[Sie haben {#$outstandingNotifications|count} ungelesene private Nachricht{if $outstandingNotifications|count > 1}en{/if}:]]></item>
+	</category>
+	<category name="wsif.index">
+		<item name="wsif.index.categoryUsersOnline.guests"><![CDATA[{if $categoryUsersOnline.$categoryID.users|isset}und{/if} {#$categoryUsersOnline.$categoryID.guests} Besucher]]></item>
+		<item name="wsif.index.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} {#$usersOnlineTotal} Benutzer online:]]></item>
+		<item name="wsif.index.usersOnline.detail"><![CDATA[{if $usersOnlineMembers > 0}{#$usersOnlineMembers} Mitglied{if $usersOnlineMembers != 1}er{/if}{/if}{if $usersOnlineInvisible > 0} (davon {#$usersOnlineInvisible} unsichtbar){/if}{if $usersOnlineGuests > 0 && $usersOnlineMembers > 0} und{/if}{if $usersOnlineGuests > 0} {#$usersOnlineGuests} Besucher{/if}]]></item>
+		<item name="wsif.index.usersOnline.record"><![CDATA[{if USERS_ONLINE_RECORD > 0}- Rekord: {#USERS_ONLINE_RECORD} Benutzer ({@USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
+	</category>
+</language>

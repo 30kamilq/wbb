@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.box">
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.maxPhotos"><![CDATA[Maximale Bilder]]></item>
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.maxPhotos.description"><![CDATA[Wieviele Bilder sollen in dem Boxtab angezeigt werden?]]></item>
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.sortField"><![CDATA[Sortierung]]></item>
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.sortField.description"><![CDATA[Geben Sie an, wonach die Bilder sortiert werden sollen.]]></item>
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.sortOrder"><![CDATA[Sortierungsreihenfolge]]></item>
+		<item name="wcf.acp.box.tab.option.userGalleryPhotos.sortOrder.description"><![CDATA[Geben Sie an, in welcher Reihenfolge die Bilder angezeigt werden sollen.]]></item>
+		<item name="wcf.acp.box.tab.type.userGalleryPhotos"><![CDATA[Letzte Bilder aus der Galerie]]></item>
+		<item name="wcf.acp.box.tab.type.userGalleryPhotos.sortField.comments"><![CDATA[Kommentare]]></item>
+		<item name="wcf.acp.box.tab.type.userGalleryPhotos.sortField.rating"><![CDATA[Bewertung]]></item>
+		<item name="wcf.acp.box.tab.type.userGalleryPhotos.sortField.uploadTime"><![CDATA[Datum hochgeladen]]></item>
+		<item name="wcf.acp.box.tab.type.userGalleryPhotos.sortField.views"><![CDATA[Aufrufe]]></item>
+	</category>
+	<category name="wcf.box">
+		<item name="wcf.box.tab.type.userGalleryPhotos.noPhotos"><![CDATA[Es sind keine Bilder vorhanden.]]></item>
+	</category>
+</language>
