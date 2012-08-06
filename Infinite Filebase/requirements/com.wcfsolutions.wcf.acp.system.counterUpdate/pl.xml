@@ -1,23 +1,23 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.counterUpdate">
-		<item name="wcf.acp.counterUpdate"><![CDATA[Update counters]]></item>
-		<item name="wcf.acp.counterUpdate.error.noCounterUpdateTypes"><![CDATA[Currently there are no actions for the counter update available.]]></item>
+		<item name="wcf.acp.counterUpdate"><![CDATA[Aktualizuj liczniki]]></item>
+		<item name="wcf.acp.counterUpdate.error.noCounterUpdateTypes"><![CDATA[Obecnie nie ma żadnych liczników do zaktualizowania.]]></item>
 		<item name="wcf.acp.counterUpdate.limit"><![CDATA[Refresh interval]]></item>
-		<item name="wcf.acp.counterUpdate.limit.description"><![CDATA[Number of refreshes to process per cycle]]></item>
-		<item name="wcf.acp.counterUpdate.type"><![CDATA[Action]]></item>
-		<item name="wcf.acp.counterUpdate.type.description"><![CDATA[Please choose the action to be executed here.]]></item>
+		<item name="wcf.acp.counterUpdate.limit.description"><![CDATA[Liczba odświeżeń na jeden cykl]]></item>
+		<item name="wcf.acp.counterUpdate.type"><![CDATA[Akcja]]></item>
+		<item name="wcf.acp.counterUpdate.type.description"><![CDATA[Proszę wybrać, który licznik ma zostać zaktualizowany!]]></item>
 	</category>
 	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.admin.maintenance.canUseCounterUpdate"><![CDATA[Can update counters]]></item>
-		<item name="wcf.acp.group.option.admin.maintenance.canUseCounterUpdate.description"><![CDATA[Members of this usergroup can update the counters.]]></item>
+		<item name="wcf.acp.group.option.admin.maintenance.canUseCounterUpdate"><![CDATA[Może aktualizować liczniki]]></item>
+		<item name="wcf.acp.group.option.admin.maintenance.canUseCounterUpdate.description"><![CDATA[Użytkownicy należący do tej grupy mogą aktualizować liczniki.]]></item>
 	</category>
 	<category name="wcf.acp.menu">
-		<item name="wcf.acp.menu.link.maintenance.counterUpdate"><![CDATA[Update counters]]></item>
+		<item name="wcf.acp.menu.link.maintenance.counterUpdate"><![CDATA[Aktualizuj liczniki]]></item>
 	</category>
 	<category name="wcf.acp.package">
-		<item name="wcf.acp.package.step.install.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Installing counter update types ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Uninstalling counter update types ...]]></item>
-		<item name="wcf.acp.package.step.update.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Updating counter update types ...]]></item>
+		<item name="wcf.acp.package.step.install.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Instalacja typów aktualizacji liczników ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Odinstalowywanie typów aktualizacji liczników ...]]></item>
+		<item name="wcf.acp.package.step.update.CounterUpdateTypePackageInstallationPlugin"><![CDATA[Aktualizacja typów aktualizacji liczników ...]]></item>
 	</category>
 </language>
