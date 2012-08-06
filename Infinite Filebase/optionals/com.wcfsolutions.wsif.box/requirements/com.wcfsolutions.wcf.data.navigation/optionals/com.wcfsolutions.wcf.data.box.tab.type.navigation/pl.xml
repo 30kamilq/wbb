@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.tab.option.navigation.navigationID"><![CDATA[Navigation]]></item>
-		<item name="wcf.acp.box.tab.option.navigation.navigationID.description"><![CDATA[Geben Sie hier die Navigation an, die in dem Boxtab dargestellt werden soll.]]></item>
-		<item name="wcf.acp.box.tab.type.navigation"><![CDATA[Navigation]]></item>
+		<item name="wcf.acp.box.tab.option.navigation.navigationID"><![CDATA[Menu]]></item>
+		<item name="wcf.acp.box.tab.option.navigation.navigationID.description"><![CDATA[Wpisz sekcje menu, które mają być pokazywane.]]></item>
+		<item name="wcf.acp.box.tab.type.navigation"><![CDATA[Menu]]></item>
 	</category>
 </language>
