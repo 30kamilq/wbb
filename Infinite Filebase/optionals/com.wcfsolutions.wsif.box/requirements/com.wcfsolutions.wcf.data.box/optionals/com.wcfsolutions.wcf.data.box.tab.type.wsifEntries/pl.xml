@@ -15,6 +15,6 @@
 	</category>
 	<category name="wcf.box">
 		<item name="wcf.box.tab.type.wsifEntries.entry.by"><![CDATA[Przez]]></item>
-		<item name="wcf.box.tab.type.wsifEntries.noEntries"><![CDATA[\Obecnie nie ma żadnych wpisów.]]></item>
+		<item name="wcf.box.tab.type.wsifEntries.noEntries"><![CDATA[Obecnie nie ma żadnych wpisów.]]></item>
 	</category>
 </language>
