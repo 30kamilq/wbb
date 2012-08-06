@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
-<language languagecode="de">
+<language languagecode="pl">
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.index_enable_online_list"><![CDATA[Benutzer-Online-Liste anzeigen]]></item>
-		<item name="wcf.acp.option.index_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in der gesamten Filebase aktiv sind?]]></item>
-		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Nur registrierte Benutzer im Benutzer-Online-Rekord zählen]]></item>
-		<item name="wcf.acp.option.users_online_record_no_guests.description"><![CDATA[Sollen bei der Ermittelung des Benutzer-Online-Rekords ausschließlich registrierte Benutzer gezählt werden?]]></item>
-		<item name="wcf.acp.option.index_enable_users_online_legend"><![CDATA[Legende der Benutzergruppen unter der Benutzer-Online-Liste anzeigen]]></item>
-		<item name="wcf.acp.option.index_enable_users_online_legend.description"><![CDATA[Soll unter der Benutzer-Online-Liste eine Legende zu den Benutzergruppen angezeigt werden, sofern für diese eine spezielle Formatierung eingestellt wurde?]]></item>
-		<item name="wcf.acp.option.category_list_enable_online_list"><![CDATA[Aktive Benutzer der jeweiligen Kategorie anzeigen]]></item>
-		<item name="wcf.acp.option.category_list_enable_online_list.description"><![CDATA[Sollen zu jeder Kategorie die gerade aktiven Benutzer dieser Kategorie angezeigt werden?]]></item>
-		<item name="wcf.acp.option.category_enable_online_list"><![CDATA[Aktive Benutzer anzeigen]]></item>
-		<item name="wcf.acp.option.category_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in der jeweiligen Kategorie aktiv sind?]]></item>
-		<item name="wcf.acp.option.entry_enable_online_list"><![CDATA[Aktive Benutzer anzeigen]]></item>
-		<item name="wcf.acp.option.entry_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in dem jeweiligen Eintrag aktiv sind?]]></item>
+		<item name="wcf.acp.option.index_enable_online_list"><![CDATA[Pokaż listę użytkowników online]]></item>
+		<item name="wcf.acp.option.index_enable_online_list.description"><![CDATA[Pokazywać listę użytkowników którzy są aktualnie online?]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Tylko zarejestrowani użytkownicy mają być zaliczani do rekordu online]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests.description"><![CDATA[Tylko zarejestrowani użytkownicy mają być zaliczani do rekordu online?]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend"><![CDATA[Pokaż legendę grup pod listą użytkowników online]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend.description"><![CDATA[Pokazywać legendę grup pod listą użytkowników online?]]></item>
+		<item name="wcf.acp.option.category_list_enable_online_list"><![CDATA[Aktywni użytkownicy w danej kategorii]]></item>
+		<item name="wcf.acp.option.category_list_enable_online_list.description"><![CDATA[Pokazywać użytkowników którzy aktualnie przeglądają daną kategorię?]]></item>
+		<item name="wcf.acp.option.category_enable_online_list"><![CDATA[Pokaż aktywnych użytkowników]]></item>
+		<item name="wcf.acp.option.category_enable_online_list.description"><![CDATA[Pokazywać lsitę użytkowników którzy aktualnie przeglądają daną kategorię?]]></item>
+		<item name="wcf.acp.option.entry_enable_online_list"><![CDATA[Pokaż użytkowników online]]></item>
+		<item name="wcf.acp.option.entry_enable_online_list.description"><![CDATA[Pokazywać użytkowników online?]]></item>
 	</category>
 	<category name="wsif.category">
-		<item name="wsif.category.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} neben Ihnen {#$usersOnlineTotal} Benutzer in dieser Kategorie unterwegs:]]></item>
+		<item name="wsif.category.usersOnline"><![CDATA[Obecnie oprócz ciebie {if $usersOnlineTotal == 1}jest{else}jest{/if} {#$usersOnlineTotal} użytkowników w tej kategorii:]]></item>
 	</category>
 	<category name="wsif.entry">
-		<item name="wsif.entry.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} neben Ihnen {#$usersOnlineTotal} Benutzer in diesem Eintrag unterwegs:]]></item>
+		<item name="wsif.entry.usersOnline"><![CDATA[Obecnie {if $usersOnlineTotal == 1}jest{else}jest{/if} {#$usersOnlineTotal} użytkowników online:]]></item>
 	</category>
 	<category name="wsif.global">
-		<item name="wsif.global.extensionKit.copyright"><![CDATA[<a href="http://www.woltlab.com/de/">Basis: <strong>Community Framework&trade;{if SHOW_VERSION_NUMBER} {@WCF_VERSION}{/if}</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a>]]></item>
+		<item name="wsif.global.extensionKit.copyright"><![CDATA[<a href="http://www.woltlab.com/de/">Basis: <strong>Community Framework&trade;{if SHOW_VERSION_NUMBER} {@WCF_VERSION}{/if}</strong>, opracowany przez <strong>WoltLab&reg; GmbH</strong></a>, <strong>Spolszczenie:</strong> <a href="http://wbb-site.pl/">wbb-site.pl</a>]]></item>
 	</category>
 	<category name="wsif.header">
-		<item name="wsif.header.userMenu.pm"><![CDATA[Private Nachrichten]]></item>
-		<item name="wsif.header.userMenu.userGroupLeader"><![CDATA[Gruppenleitung]]></item>
+		<item name="wsif.header.userMenu.pm"><![CDATA[Prywatne wiadomości]]></item>
+		<item name="wsif.header.userMenu.userGroupLeader"><![CDATA[Lider grupy]]></item>
 	</category>
 	<category name="wsif.header">
-		<item name="wsif.pm.notification.report"><![CDATA[Sie haben {#$outstandingNotifications|count} ungelesene private Nachricht{if $outstandingNotifications|count > 1}en{/if}:]]></item>
+		<item name="wsif.pm.notification.report"><![CDATA[Masz w sumie {#$outstandingNotifications|count} nieprzeczytą prywatną wiadomość:]]></item>
 	</category>
 	<category name="wsif.index">
-		<item name="wsif.index.categoryUsersOnline.guests"><![CDATA[{if $categoryUsersOnline.$categoryID.users|isset}und{/if} {#$categoryUsersOnline.$categoryID.guests} Besucher]]></item>
-		<item name="wsif.index.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} {#$usersOnlineTotal} Benutzer online:]]></item>
-		<item name="wsif.index.usersOnline.detail"><![CDATA[{if $usersOnlineMembers > 0}{#$usersOnlineMembers} Mitglied{if $usersOnlineMembers != 1}er{/if}{/if}{if $usersOnlineInvisible > 0} (davon {#$usersOnlineInvisible} unsichtbar){/if}{if $usersOnlineGuests > 0 && $usersOnlineMembers > 0} und{/if}{if $usersOnlineGuests > 0} {#$usersOnlineGuests} Besucher{/if}]]></item>
-		<item name="wsif.index.usersOnline.record"><![CDATA[{if USERS_ONLINE_RECORD > 0}- Rekord: {#USERS_ONLINE_RECORD} Benutzer ({@USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
+		<item name="wsif.index.categoryUsersOnline.guests"><![CDATA[{if $categoryUsersOnline.$categoryID.users|isset}i{/if} {#$categoryUsersOnline.$categoryID.guests} gości]]></item>
+		<item name="wsif.index.usersOnline"><![CDATA[Obecnie jest {#$usersOnlineTotal} {if $usersOnlineTotal == 1}użytkownik{else}użytkowników{/if} online:]]></item>
+		<item name="wsif.index.usersOnline.detail"><![CDATA[{if $usersOnlineMembers > 0}{#$usersOnlineMembers} użytkownik{if $usersOnlineMembers != 1}ów{/if}{/if}{if $usersOnlineInvisible > 0} (w tym {#$usersOnlineInvisible} niewidoczny){/if}{if $usersOnlineGuests > 0 && $usersOnlineMembers > 0} i{/if}{if $usersOnlineGuests > 0} {#$usersOnlineGuests} gość{/if}]]></item>
+		<item name="wsif.index.usersOnline.record"><![CDATA[{if USERS_ONLINE_RECORD > 0}- Rekord: {#USERS_ONLINE_RECORD} użytkowników ({@USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
 	</category>
 </language>
