@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.package">
-		<item name="wcf.acp.package.step.install.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Installing moderation menu items ...]]></item>
-		<item name="wcf.acp.package.step.install.ModerationTypePackageInstallationPlugin"><![CDATA[Installing moderation types ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Uninstalling moderation menu items ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.ModerationTypePackageInstallationPlugin"><![CDATA[Uninstalling moderation types ...]]></item>
-		<item name="wcf.acp.package.step.update.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Updating moderation menu items ...]]></item>
-		<item name="wcf.acp.package.step.update.ModerationTypePackageInstallationPlugin"><![CDATA[Updating moderation types ...]]></item>
+		<item name="wcf.acp.package.step.install.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Instalacja elementów menu ...]]></item>
+		<item name="wcf.acp.package.step.install.ModerationTypePackageInstallationPlugin"><![CDATA[Instalacja typu moderacji ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Odinstalowywanie elementów menu ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.ModerationTypePackageInstallationPlugin"><![CDATA[Odinstalowywanie typu moderacji ...]]></item>
+		<item name="wcf.acp.package.step.update.ModerationCPMenuPackageInstallationPlugin"><![CDATA[Aktualizacja elemntów menu ...]]></item>
+		<item name="wcf.acp.package.step.update.ModerationTypePackageInstallationPlugin"><![CDATA[Aktualizacja typu moderacji ...]]></item>
 	</category>
 	<category name="wcf.moderation">
-		<item name="wcf.moderation"><![CDATA[Moderation]]></item>
-		<item name="wcf.moderation.menu.link.overview"><![CDATA[Overview]]></item>
-		<item name="wcf.moderation.outstandingModerations"><![CDATA[{#$outstandingModerations} outstanding moderation{if $outstandingModerations != 1}s{/if}]]></item>
-		<item name="wcf.moderation.overview"><![CDATA[Overview]]></item>
+		<item name="wcf.moderation"><![CDATA[Moderacja]]></item>
+		<item name="wcf.moderation.menu.link.overview"><![CDATA[Przegląd]]></item>
+		<item name="wcf.moderation.outstandingModerations"><![CDATA[{#$outstandingModerations} w moderacji]]></item>
+		<item name="wcf.moderation.overview"><![CDATA[Przegląd]]></item>
 	</category>
 </language>
