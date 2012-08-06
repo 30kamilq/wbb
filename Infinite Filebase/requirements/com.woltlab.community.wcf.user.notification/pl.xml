@@ -4,14 +4,14 @@
 		<item name="wcf.user.notification.title"><![CDATA[Powiadomienia]]></item>
 		<item name="wcf.user.notification.stats"><![CDATA[W sumie {#$items} powiadomienie/a]]></item>
 		<item name="wcf.user.notification.noNotifications"><![CDATA[Obecnie nie ma żadnych powiadomień.]]></item>
-        <item name="wcf.user.notification.icon"><![CDATA[Ikona]]></item>
-        <item name="wcf.user.notification.text"><![CDATA[Wiadomość]]></item>
-        <item name="wcf.user.notification.time"><![CDATA[CZas]]></item>
+        	<item name="wcf.user.notification.icon"><![CDATA[Ikona]]></item>
+        	<item name="wcf.user.notification.text"><![CDATA[Wiadomość]]></item>
+        	<item name="wcf.user.notification.time"><![CDATA[CZas]]></item>
 		<item name="wcf.user.notification.confirmAll"><![CDATA[Potwierdź wszystko]]></item>
-        <item name="wcf.user.notification.settings"><![CDATA[Ustawienia powiadomień]]></item>
-        <item name="wcf.user.notification.location.settings"><![CDATA[Ustawienia powiadomień]]></item>
+        	<item name="wcf.user.notification.settings"><![CDATA[Ustawienia powiadomień]]></item>
+        	<item name="wcf.user.notification.location.settings"><![CDATA[Ustawienia powiadomień]]></item>
 		<item name="wcf.user.notification.location.overview"><![CDATA[Przegląd powiadomień]]></item>
-        <item name="wcf.user.notification.type.userMessages"><![CDATA[Okno powiadomień]]></item>
+        	<item name="wcf.user.notification.type.userMessages"><![CDATA[Okno powiadomień]]></item>
 		<item name="wcf.user.notification.type.userMessages.title"><![CDATA[Masz następujące powiadomienia:]]></item>
 		<item name="wcf.user.notification.type.mail"><![CDATA[E-Mail]]></item>
 		<item name="wcf.user.notification.type.mail.subject"><![CDATA[{@$title}]]></item>
@@ -34,35 +34,35 @@ Jeśli nie chcesz otrzymywać powiadomień na email to po prostu kliknij na ten 
 		<item name="wcf.user.usercp.menu.link.settings.notification"><![CDATA[Powiadomienia]]></item>
         <item name="wcf.user.usercp.menu.link.management.notification"><![CDATA[Powiadomienia]]></item>
 	</category>
-    <category name="wcf.header.userMenu">
+    	<category name="wcf.header.userMenu">
 		<item name="wcf.header.userMenu.userNotifications"><![CDATA[Powiadomienia]]></item>
 	</category>
-    <category name="wcf.acp.option">
+   	 <category name="wcf.acp.option">
 		<item name="wcf.acp.option.module_user_notification"><![CDATA[Powiadomienia]]></item>
 		<item name="wcf.acp.option.module_user_notification.description"><![CDATA[Aktywuje system powiadomień.]]></item>
 		<item name="wcf.acp.option.category.user.notification"><![CDATA[Powiadomienia]]></item>
 		<item name="wcf.acp.option.category.user.notification.description"><![CDATA[]]></item>
 		<item name="wcf.acp.option.category.user.notification.general"><![CDATA[Główne]]></item>
 		<item name="wcf.acp.option.category.user.notification.general.description"><![CDATA[]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_active"><![CDATA[Pokaż linki użytkownika]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_active.description"><![CDATA[Jeśli ta opcja jest włączona, każde powiadomienie będzie wyświetlane w panelu użytkownika.]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_autorefresh"><![CDATA[Automatyczne odświeżanie linków w menu]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_autorefresh.description"><![CDATA[Jeśli ta opcja jest włączona, menu użytkownika odświeży się automatycznie za pomocą AJAX. Funkcja ta zwiększa obciążenie serwera.]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_autorefresh_intervall"><![CDATA[Częstotliwość odświeżania [w sekundach]]]></item>
-        <item name="wcf.acp.option.user_notification_user_menu_link_autorefresh_intervall.description"><![CDATA[Jajk często mają być odświeżane linki?]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_active"><![CDATA[Pokaż linki użytkownika]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_active.description"><![CDATA[Jeśli ta opcja jest włączona, każde powiadomienie będzie wyświetlane w panelu użytkownika.]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_autorefresh"><![CDATA[Automatyczne odświeżanie linków w menu]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_autorefresh.description"><![CDATA[Jeśli ta opcja jest włączona, menu użytkownika odświeży się automatycznie za pomocą AJAX. Funkcja ta zwiększa obciążenie serwera.]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_autorefresh_intervall"><![CDATA[Częstotliwość odświeżania [w sekundach]]]></item>
+        	<item name="wcf.acp.option.user_notification_user_menu_link_autorefresh_intervall.description"><![CDATA[Jajk często mają być odświeżane linki?]]></item>
 		<item name="wcf.acp.option.user_notification_lifetime"><![CDATA[Trwałość potwierdzonych powiadomień [w godzinach]]]></item>
 		<item name="wcf.acp.option.user_notification_lifetime.description"><![CDATA[Podaj po ilu godzinach potwierdzone powiadomienia powinny być kasowane. -1 wyłącza automatyczne kasowania starych potwierdzonych powiadomień.]]></item>
-        <item name="wcf.acp.option.user_notification_lifetime_unconfirmed"><![CDATA[Trwałość niepotwierdzonych powiadomień [w godzinach]]]></item>
+        	<item name="wcf.acp.option.user_notification_lifetime_unconfirmed"><![CDATA[Trwałość niepotwierdzonych powiadomień [w godzinach]]]></item>
 		<item name="wcf.acp.option.user_notification_lifetime_unconfirmed.description"><![CDATA[Wpisz po ilu godzinach niepotwierdzone powiadomienia powinny być usuwane. 0 wyłącza automatyczne usuwanie powiadomień.]]></item>
 	</category>
 	<category name="wcf.acp.package">
 		<item name="wcf.acp.package.step.install.NotificationObjectTypePackageInstallationPlugin"><![CDATA[Instalacja obiektów powiadomień ...]]></item>
 		<item name="wcf.acp.package.step.uninstall.NotificationObjectTypePackageInstallationPlugin"><![CDATA[Odinstalowywanie obiektów powiadomień ...]]></item>
 		<item name="wcf.acp.package.step.update.NotificationObjectTypePackageInstallationPlugin"><![CDATA[Aktualizacja obiektów powiadomień ...]]></item>
-        <item name="wcf.acp.package.step.install.NotificationTypePackageInstallationPlugin"><![CDATA[Instalacja rodzajów powiadomień ...]]></item>
+        	<item name="wcf.acp.package.step.install.NotificationTypePackageInstallationPlugin"><![CDATA[Instalacja rodzajów powiadomień ...]]></item>
 		<item name="wcf.acp.package.step.uninstall.NotificationTypePackageInstallationPlugin"><![CDATA[Odinstalowywanie rodzajów powiadomień ...]]></item>
 		<item name="wcf.acp.package.step.update.NotificationTypePackageInstallationPlugin"><![CDATA[Aktualizacja rodzajów powiadomień ...]]></item>
-        <item name="wcf.acp.package.step.install.NotificationEventPackageInstallationPlugin"><![CDATA[Instalacja zdarzeń ...]]></item>
+        	<item name="wcf.acp.package.step.install.NotificationEventPackageInstallationPlugin"><![CDATA[Instalacja zdarzeń ...]]></item>
 		<item name="wcf.acp.package.step.uninstall.NotificationEventPackageInstallationPlugin"><![CDATA[Odinstalowywanie zdarzeń ...]]></item>
 		<item name="wcf.acp.package.step.update.NotificationEventPackageInstallationPlugin"><![CDATA[Aktualizacja zdarzeń ...]]></item>
     </category>
