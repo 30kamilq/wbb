@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.tab.option.wsifEntries.categoryIDs"><![CDATA[Kategorien]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.categoryIDs.description"><![CDATA[Aus welchen Kategorien sollen die letzten Einträge angezeigt werden? Geben Sie die dazugehörigen Kategorie-IDs kommasepariert an.]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.displayType"><![CDATA[Ansicht]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.displayType.description"><![CDATA[Welche Ansicht soll für die Auflistung der Einträge verwendet werden?]]></item>		
-		<item name="wcf.acp.box.tab.option.wsifEntries.filebasePackageID"><![CDATA[Paket-ID]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.filebasePackageID.description"><![CDATA[Aus dem Paket mit welcher Paket-ID sollen die letzten Einträge angezeigt werden?]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.maxEntries"><![CDATA[Maximale Einträge]]></item>
-		<item name="wcf.acp.box.tab.option.wsifEntries.maxEntries.description"><![CDATA[Wieviele Einträge sollen in dem Boxtab angezeigt werden?]]></item>
-		<item name="wcf.acp.box.tab.type.wsifEntries"><![CDATA[Letzte Einträge aus der Infinite Filebase]]></item>
-		<item name="wcf.acp.box.tab.type.wsifEntries.displayType.list"><![CDATA[Liste]]></item>
-		<item name="wcf.acp.box.tab.type.wsifEntries.displayType.thumbnail"><![CDATA[Vorschaubild]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.categoryIDs"><![CDATA[Kategorie]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.categoryIDs.description"><![CDATA[Z których kategori mają być wyświetlane ostatnie posty? ID kategori podawaj po przecinkach.]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.displayType"><![CDATA[Podgląd]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.displayType.description"><![CDATA[Który widok powinien być używany do wyświetlania wpisów?]]></item>		
+		<item name="wcf.acp.box.tab.option.wsifEntries.filebasePackageID"><![CDATA[ID pakietu]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.filebasePackageID.description"><![CDATA[Podaj ID pakietu z którego mają być wyświetlane wpisy]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.maxEntries"><![CDATA[Maksymalna liczba wpisów]]></item>
+		<item name="wcf.acp.box.tab.option.wsifEntries.maxEntries.description"><![CDATA[Ile wpisów ma zostać wyświetlonych?]]></item>
+		<item name="wcf.acp.box.tab.type.wsifEntries"><![CDATA[Najnowsze wpisy z Infinite Filebase]]></item>
+		<item name="wcf.acp.box.tab.type.wsifEntries.displayType.list"><![CDATA[Lista]]></item>
+		<item name="wcf.acp.box.tab.type.wsifEntries.displayType.thumbnail"><![CDATA[Miniatura]]></item>
 	</category>
 	<category name="wcf.box">
-		<item name="wcf.box.tab.type.wsifEntries.entry.by"><![CDATA[Von]]></item>
-		<item name="wcf.box.tab.type.wsifEntries.noEntries"><![CDATA[Es sind keine Einträge vorhanden.]]></item>
+		<item name="wcf.box.tab.type.wsifEntries.entry.by"><![CDATA[Przez]]></item>
+		<item name="wcf.box.tab.type.wsifEntries.noEntries"><![CDATA[\Obecnie nie ma żadnych wpisów.]]></item>
 	</category>
 </language>
