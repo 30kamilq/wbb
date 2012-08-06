@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wsif.acp.category">
-		<item name="wsif.acp.category.customEntryFields"><![CDATA[Zusätzliche Eintragsfelder]]></item>
+		<item name="wsif.acp.category.customEntryFields"><![CDATA[Dodatkowe pola]]></item>
 	</category>
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category_entries_enable_custom_fields"><![CDATA[Zusätzliche Eintragsfelder anzeigen]]></item>
-		<item name="wcf.acp.option.category_entries_enable_custom_fields.description"><![CDATA[Sollen die zusätzlichen Eintragsfelder angezeigt werden?]]></item>
+		<item name="wcf.acp.option.category_entries_enable_custom_fields"><![CDATA[Dodatkowe pola]]></item>
+		<item name="wcf.acp.option.category_entries_enable_custom_fields.description"><![CDATA[Pokazywać dodatkowe pola?]]></item>
 	</category>
 </language>
