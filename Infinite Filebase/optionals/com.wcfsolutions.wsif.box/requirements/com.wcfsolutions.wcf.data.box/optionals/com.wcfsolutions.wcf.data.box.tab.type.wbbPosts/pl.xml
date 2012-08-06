@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.tab.option.wbbPosts.boardIDs"><![CDATA[Foren]]></item>
-		<item name="wcf.acp.box.tab.option.wbbPosts.boardIDs.description"><![CDATA[Aus welchen Foren sollen die letzten Beiträge angezeigt werden? Geben Sie die dazugehörigen Foren-IDs kommasepariert an.]]></item>
-		<item name="wcf.acp.box.tab.option.wbbPosts.boardPackageID"><![CDATA[Paket-ID]]></item>
-		<item name="wcf.acp.box.tab.option.wbbPosts.boardPackageID.description"><![CDATA[Aus dem Paket mit welcher Paket-ID sollen die letzten Beiträge angezeigt werden?]]></item>
-		<item name="wcf.acp.box.tab.option.wbbPosts.maxPosts"><![CDATA[Maximale Beiträge]]></item>
-		<item name="wcf.acp.box.tab.option.wbbPosts.maxPosts.description"><![CDATA[Wieviele Beiträge sollen in dem Boxtab angezeigt werden?]]></item>
-		<item name="wcf.acp.box.tab.type.wbbPosts"><![CDATA[Letzte Beiträge aus dem WBB]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.boardIDs"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.boardIDs.description"><![CDATA[Jakie forum powinno wyświetlać ostatnie pliki? Wpisz ID forów oddzielając je przecinkami.]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.boardPackageID"><![CDATA[ID pakietu]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.boardPackageID.description"><![CDATA[Z którego pakietu mają być wyświetlane ostatnie pliki?]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.maxPosts"><![CDATA[Maksymalna liczba postów]]></item>
+		<item name="wcf.acp.box.tab.option.wbbPosts.maxPosts.description"><![CDATA[Ile postów ma zostać wyświetlonych?]]></item>
+		<item name="wcf.acp.box.tab.type.wbbPosts"><![CDATA[Ostatnie posty z WBB]]></item>
 	</category>
 	<category name="wcf.box">
-		<item name="wcf.box.tab.type.wbbPosts.post.by"><![CDATA[Von]]></item>
-		<item name="wcf.box.tab.type.wbbPosts.noPosts"><![CDATA[Es sind keine Beiträge vorhanden.]]></item>
+		<item name="wcf.box.tab.type.wbbPosts.post.by"><![CDATA[Przez]]></item>
+		<item name="wcf.box.tab.type.wbbPosts.noPosts"><![CDATA[Obecnie nie ma żadnych postów.]]></item>
 	</category>
 </language>
