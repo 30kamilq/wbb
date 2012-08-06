@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.user.notification">
-                <item name="wcf.user.notification.type.pm"><![CDATA[Private message]]></item>
+                <item name="wcf.user.notification.type.pm"><![CDATA[Prywatna wiadomość]]></item>
 	</category>
         <category name="wcf.pm.rule">
-                <item name="wcf.pm.rule.condition.type.isNotification"><![CDATA[PM is a notification]]></item>
+                <item name="wcf.pm.rule.condition.type.isNotification"><![CDATA[PW jest powiadomieniem]]></item>
         </category>
 </language>
