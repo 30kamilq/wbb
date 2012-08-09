@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="pl" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.stylepage">
+		<item name="wcf.stylepage.sitetitle"><![CDATA[Style]]></item>
+		<item name="wcf.stylepage.sitedescription"><![CDATA[Tutaj możesz przeglądać wszystkie zainstalowane style]]></item>
+		<item name="wcf.stylepage.siteautor"><![CDATA[Autor]]></item>
+		<item name="wcf.stylepage.siteversion"><![CDATA[Wersja stylu]]></item>
+		<item name="wcf.stylepage.sitecopyright"><![CDATA[Prawa autorskie]]></item>
+		<item name="wcf.stylepage.sitelicense"><![CDATA[Licencja]]></item>
+		<item name="wcf.stylePage.siteActivateStyle"><![CDATA[Aktywuj styl "{$styleItem->styleName}"]]></item>
+    </category>
+	<category name="wcf.footer.menu">
+		<item name="wcf.footer.menu.stylepage"><![CDATA[Style]]></item>
+    </category> 
+	<category name="wcf.usersOnline">
+		<item name="wcf.usersOnline.location.stylePage"><![CDATA[Style]]></item>
+	</category>
+</language>
