@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	
+	<category name="wbblite.thread.moderation">
+		<item name="wbblite.thread.moderation.threadChangePrefix"><![CDATA[Wybierz prefix]]></item>
+		<item name="wbblite.thread.moderation.changePrefix"><![CDATA[Wybierz prefix]]></item>
+		<item name="wbblite.thread.moderation.changePrefix.newPrefix"><![CDATA[Nowy prefix]]></item>
+	</category>
 </language>

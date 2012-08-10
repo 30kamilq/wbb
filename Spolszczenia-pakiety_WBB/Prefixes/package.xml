@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="pl.language.prefixes">
+  <packageinformation>
+    <packagename>Spolszczenie do pakietu Prefixes</packagename>
+    <packagedescription>Spolszczenie do Prefixes</packagedescription>
+    <version>1.0.0</version>
+    <date>2012-08-10</date>
+
+   
+    <plugin>com.woltlab.wbb</plugin>
+    <standalone>0</standalone>
+    <isunique>0</isunique>
+  </packageinformation>
+  <authorinformation>
+    <author>Near</author>
+
+    <authorurl>http://wbb-site.pl</authorurl>
+  </authorinformation>
+  <requiredpackages>
+    <requiredpackage minversion="1.1.1">com.woltlab.wcf</requiredpackage>
+  </requiredpackages>
+
+  <excludedpackages>
+		<excludedpackage version="3.1.*">com.woltlab.wbb</excludedpackage>
+	</excludedpackages>
+  
+  <optionalpackages />
+  <instructions type="install" >
+        <languages languagecode="pl">pl.xml</languages>
+       
+
+  </instructions>
+</package>
