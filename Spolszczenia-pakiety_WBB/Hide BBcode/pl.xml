@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="pl" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.message.seethx"><![CDATA[Zawsze widzi zawartość ukrytych tekstów]]></item>
+		<item name="wcf.acp.group.option.user.message.seethx.description"><![CDATA[Użytkownicy należący do tej grupy zawsze będą mogli zobaczyć zawartość [HIDE] bez podziękowania lub napisania postu.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.hide_enable_post"><![CDATA[Treść widoczna po napisaniu postu?]]></item>
+		<item name="wcf.acp.option.hide_enable_post.description"><![CDATA[W przypadku objęciu treści w tag [HIDE] trzeba będzie napisać post, aby zobaczyć ukrytą treść.]]></item>
+		<item name="wcf.acp.option.hide_autoactivate_thx"><![CDATA[Automatycznie włączać podziękowania?]]></item>
+		<item name="wcf.acp.option.hide_autoactivate_thx.description"><![CDATA[Jeśli ta opcja jest włączona, skrypt automatycznie podziękuje w postach zawierających ukryte teksty.]]></item>
+		<item name="wcf.acp.option.hide_enable_thx"><![CDATA[Pokazywać podziękowania?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx.description"><![CDATA[Pokazywać kto podziękował autorowi?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx_whole_thread"><![CDATA[Podziękowanie pokazuje wszystkie ukryte teksty?]]></item>
+		<item name="wcf.acp.option.hide_enable_thx_whole_thread.description"><![CDATA[Jeśli użytkownik naciśnie jeden z przycisków podziękowania w temacie, zobaczy wszystkie ukryte teksty w tym temacie.]]></item>
+		<item name="wcf.acp.option.category.message.hide"><![CDATA[Ukryty tekst]]></item>
+		<item name="wcf.acp.option.category.message.hide.description"><![CDATA[]]></item>
+	</category>
+	<category name="wcf.bbcode">
+		<item name="wcf.bbcode.hide.nothx.post"><![CDATA[Ten tekst został ukryty przez autora. Musisz <a href="index.php?form=PostAdd&amp;threadID={@$container->threadID}{@SID_ARG_2ND}">napisać post</a>, aby zobaczyć tekst.]]></item>
+		<item name="wcf.bbcode.hide.nothx.postthank"><![CDATA[Ten tekst został ukryty przez autora. Musisz <a href="index.php?action=Thank&amp;postID={@$container->postID}{@SID_ARG_2ND}" onClick="thankOmat.thankPost({$container->postID}); return false;"><img src="{@RELATIVE_WBB_DIR}icon/thankS.png" alt="" name="thankImg{@$container->postID}" /> podziękować </a> lub <a href="index.php?form=PostAdd&amp;threadID={@$container->threadID}{@SID_ARG_2ND}">napisać</a>, aby zobaczyć tekst.]]></item>
+		<item name="wcf.bbcode.hide.nothx.thank"><![CDATA[Ten tekst został ukryty przez autora. Musisz <a href="index.php?action=Thank&amp;postID={@$container->postID}{@SID_ARG_2ND}" onClick="thankOmat.thankPost({$container->postID}); return false;"><img src="{@RELATIVE_WBB_DIR}icon/thankS.png" alt="" name="thankImg{@$container->postID}" /> podziękować autorowi</a>, aby zobaczyć tekst.]]></item>
+		<item name="wcf.bbcode.hide.alarm"><![CDATA[Ukryty tekst]]]></item>
+		<item name="wcf.bbcode.hide.nothx"><![CDATA[Ten tekst został ukryty przez autora.]]></item>
+		<item name="wcf.bbcode.hide.title"><![CDATA[Wstaw ukryty tekst]]></item>
+		<item name="wcf.bbcode.hide.warning"><![CDATA[Ukryty tekst]]></item>
+	</category>
+</language>
