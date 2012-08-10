@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="pl.language.stylepage">
+<package name="pl.language.progress_bar">
   <packageinformation>
-    <packagename>Spolszczenie do pakietu Stylepage</packagename>
-    <packagedescription>Spolszczenie do Stylepage</packagedescription>
+    <packagename>Spolszczenie do pakietu Progress Bar</packagename>
+    <packagedescription>Spolszczenie do Progress Bar</packagedescription>
     <version>1.0.0</version>
-    <date>2012-08-09</date>
+    <date>2012-08-10</date>
 
    
     <plugin>com.woltlab.wbb</plugin>
