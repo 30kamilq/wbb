@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language languagecode="de" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+<language languagecode="pl" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
     <category name="wbb.portal">
-        <item name="wbb.portal.box.achievements.title"><![CDATA[latest achievements]]></item>
-        <item name="wbb.portal.box.latestAchievements.title"><![CDATA[latest achievements]]></item>
+        <item name="wbb.portal.box.achievements.title"><![CDATA[Najnowsze osiągnięcie]]></item>
+        <item name="wbb.portal.box.latestAchievements.title"><![CDATA[Najnowsze osiągnięcie]]></item>
 	</category>
 	
 	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.category.portal.achievements"><![CDATA[achievements]]></item>	
+		<item name="wcf.acp.option.category.portal.achievements"><![CDATA[osiągnięcia]]></item>	
 		<item name="wcf.acp.option.category.portal.achievements.description"><![CDATA[]]></item>	
-		<item name="wcf.acp.option.portalbox_achievements_entries"><![CDATA[Count of items]]></item>	
-		<item name="wcf.acp.option.portalbox_achievements_entries.description"><![CDATA[Insert the number of items.]]></item>	
+		<item name="wcf.acp.option.portalbox_achievements_entries"><![CDATA[Liczba elementów]]></item>	
+		<item name="wcf.acp.option.portalbox_achievements_entries.description"><![CDATA[Podaj liczbę elementów.]]></item>	
 	</category>
 </language>
