@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language languagecode="de" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
 	<category name="wcf.user">
-		<item name="wcf.user.achievementPoints"><![CDATA[achievement points]]></item>
+		<item name="wcf.user.achievementPoints"><![CDATA[Punkty osiągnięć]]></item>
 	</category>
 	
 	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.type.animation"><![CDATA[animation]]></item>
+		<item name="wcf.user.notification.type.animation"><![CDATA[Animacja]]></item>
 	</category>
 	
     <category name="wcf.user.achievement">
-        <item name="wcf.user.achievement.name"><![CDATA[description]]></item>
-        <item name="wcf.user.achievement.time"><![CDATA[achieved on]]></item>
-        <item name="wcf.user.achievement.points"><![CDATA[achievement points]]></item>
-        <item name="wcf.user.achievement.progress"><![CDATA[progress]]></item>
-        <item name="wcf.user.achievement.list.noItems"><![CDATA[No achievements earned!]]></item>		
-		<item name="wcf.user.achievement.list.all"><![CDATA[show all achievements]]></item>		
-		<item name="wcf.user.achievement.suspend"><![CDATA[suspend achievement earnings]]></item>		
-		<item name="wcf.user.achievement.revoke"><![CDATA[revoke achievement earnings]]></item>		
-		<item name="wcf.user.achievement.delete"><![CDATA[delete achievements]]></item>
-		<item name="wcf.user.achievement.delete.sure"><![CDATA[Do you want to delete all achievement of this user?]]></item>		
+        <item name="wcf.user.achievement.name"><![CDATA[Opis]]></item>
+        <item name="wcf.user.achievement.time"><![CDATA[Otrzymano]]></item>
+        <item name="wcf.user.achievement.points"><![CDATA[Punkty osiągnięć]]></item>
+        <item name="wcf.user.achievement.progress"><![CDATA[Postęp]]></item>
+        <item name="wcf.user.achievement.list.noItems"><![CDATA[Brak zdobytych osiągnięć!]]></item>		
+		<item name="wcf.user.achievement.list.all"><![CDATA[Pokaż wszystkie osiągnięcia]]></item>		
+		<item name="wcf.user.achievement.suspend"><![CDATA[Zawieś zarobki z osiągnięć]]></item>		
+		<item name="wcf.user.achievement.revoke"><![CDATA[Odwołaj zarobki z osiągnięć]]></item>		
+		<item name="wcf.user.achievement.delete"><![CDATA[Usuń osiągnięcia]]></item>
+		<item name="wcf.user.achievement.delete.sure"><![CDATA[Czy na pewno chcesz usunąć wszystkie osiągnięcia tego użytkownika?]]></item>		
 	</category>
 	
 	<category name="wcf.achievement">
-		<item name="wcf.achievement.related"><![CDATA[related achievements]]></item>
-		<item name="wcf.achievement.achieved.user"><![CDATA[This achievement was earned by you.]]></item>
-		<item name="wcf.achievement.receivedBy"><![CDATA[achieved by]]></item>
-		<item name="wcf.achievement.list"><![CDATA[list all achievements]]></item>
-		<item name="wcf.achievement.list.all"><![CDATA[all achievements]]></item>
-		<item name="wcf.achievement.list.noItems"><![CDATA[No entries available.]]></item>
+		<item name="wcf.achievement.related"><![CDATA[Powiązane osiągnięcia]]></item>
+		<item name="wcf.achievement.achieved.user"><![CDATA[To oiągnięcie zostało zdobyte przez ciebie.]]></item>
+		<item name="wcf.achievement.receivedBy"><![CDATA[zdobyte przez]]></item>
+		<item name="wcf.achievement.list"><![CDATA[Lista wszystkich osiągnięć]]></item>
+		<item name="wcf.achievement.list.all"><![CDATA[Wszystkie osiągnięcia]]></item>
+		<item name="wcf.achievement.list.noItems"><![CDATA[Brak dostępnych wyników.]]></item>
 		<item name="wcf.achievement.list.all.description"><![CDATA[]]></item>
-		<item name="wcf.achievement.list.latest"><![CDATA[Last achievements]]></item>
-		<item name="wcf.achievement.list.achievements.total"><![CDATA[Achievements (total)]]></item>
-		<item name="wcf.achievement.list.points.total"><![CDATA[Achievement points (total)]]></item>
-		<item name="wcf.achievement.list.completed.total"><![CDATA[completed]]></item>
-		<item name="wcf.achievement.list.stats"><![CDATA[stats]]></item>
-		<item name="wcf.achievement.list.stats.detail"><![CDATA[Total of {$earnedCount} achievements{if $earnedCount != 1}e{/if} earned - {$earnedUsers} users - {$earnedPoints} points]]></item>
-		<item name="wcf.achievement.publication"><![CDATA[broadcast]]></item>
+		<item name="wcf.achievement.list.latest"><![CDATA[Ostatnie osiągnięcia]]></item>
+		<item name="wcf.achievement.list.achievements.total"><![CDATA[Osiągnięć (w sumie)]]></item>
+		<item name="wcf.achievement.list.points.total"><![CDATA[Punktów osiągnięć (w sumie)]]></item>
+		<item name="wcf.achievement.list.completed.total"><![CDATA[Zakończone]]></item>
+		<item name="wcf.achievement.list.stats"><![CDATA[Statystyki]]></item>
+		<item name="wcf.achievement.list.stats.detail"><![CDATA[W sumie {$earnedCount} zdobytych osiągnięć - {$earnedUsers} użytkowników - {$earnedPoints} punktów]]></item>
+		<item name="wcf.achievement.publication"><![CDATA[Nadawanie]]></item>
 		<item name="wcf.achievement.publication.bbcode"><![CDATA[BB-Code]]></item>
 		<item name="wcf.achievement.publication.link"><![CDATA[Link]]></item>
-		<item name="wcf.achievement.information"><![CDATA[Information]]></item>
-		<item name="wcf.achievement.points"><![CDATA[Achievement points]]></item>
-		<item name="wcf.achievement.activityPoints"><![CDATA[Activity points]]></item>
-		<item name="wcf.achievement.detail"><![CDATA[details]]></item>
-		<item name="wcf.achievement.achievedBy"><![CDATA[This achievement was earned by <a href="index.php?page=UserAchievementList&amp;userID={$userID}{@SID_ARG_2ND}">{$username}</a> ({@$time|shorttime}){if $count > 1} and {if $count == 2}another {else}{#$count-1} others{/if}{/if}.]]></item>
-		<item name="wcf.achievement.achievedBy.title"><![CDATA[This achievement was earned by {$username} ({$time|fulldate}){if $count > 1} and {if $count == 2}another {else}{#$count-1} others{/if}{/if}.]]></item>
-		<item name="wcf.achievement.achievedBy.first"><![CDATA[This achievement was first earned by <a href="index.php?page=UserAchievementList&amp;userID={$userID}{@SID_ARG_2ND}">{$username}</a> on {@$time|shorttime}{if $count > 1} and {if $count == 2}antoher {else}{#$count-1} others{/if}{/if}.]]></item>
-		<item name="wcf.achievement.achievedBy.first.title"><![CDATA[This achievement was first earned by {$username} on {$time|fulldate}{if $count > 1} and {if $count == 2}another {else}{#$count-1} others{/if}{/if}.]]></item>
-		<item name="wcf.achievement.stats"><![CDATA[stats]]></item>
-		<item name="wcf.achievement.social.bookmarks"><![CDATA[Bookmarks]]></item>
+		<item name="wcf.achievement.information"><![CDATA[Informacja]]></item>
+		<item name="wcf.achievement.points"><![CDATA[Punkty osiągnięć]]></item>
+		<item name="wcf.achievement.activityPoints"><![CDATA[Punkty aktywności]]></item>
+		<item name="wcf.achievement.detail"><![CDATA[Szczegóły]]></item>
+		<item name="wcf.achievement.achievedBy"><![CDATA[To osiągnięcie zostało zdobyte przez <a href="index.php?page=UserAchievementList&amp;userID={$userID}{@SID_ARG_2ND}">{$username}</a> ({@$time|shorttime}){if $count > 1} i {if $count == 2}innych użytkowników {else}{#$count-1} innych użytkowników{/if}{/if}.]]></item>
+		<item name="wcf.achievement.achievedBy.title"><![CDATA[To osiągnięcie zostało zdobyte przez {$username} ({$time|fulldate}){if $count > 1} i {if $count == 2}innych użytkowników {else}{#$count-1} innych użytkowników{/if}{/if}.]]></item>
+		<item name="wcf.achievement.achievedBy.first"><![CDATA[To osiągnięcie zostało pierwsze zdobyte przez <a href="index.php?page=UserAchievementList&amp;userID={$userID}{@SID_ARG_2ND}">{$username}</a>, {@$time|shorttime}{if $count > 1} i {if $count == 2}innych użytkowników {else}{#$count-1} inncyh użytkowników{/if}{/if}.]]></item>
+		<item name="wcf.achievement.achievedBy.first.title"><![CDATA[To osiągnięcie zostało pierwsze zdobyte przez {$username}, {$time|fulldate}{if $count > 1} i {if $count == 2}innych użytkowników {else}{#$count-1} innych użytkowników{/if}{/if}.]]></item>
+		<item name="wcf.achievement.stats"><![CDATA[Statystyki]]></item>
+		<item name="wcf.achievement.social.bookmarks"><![CDATA[Podziel się]]></item>
         <item name="wcf.achievement.category.system"><![CDATA[System]]></item>
         <item name="wcf.achievement.category.system.description"><![CDATA[]]></item>
-        <item name="wcf.achievement.category.user"><![CDATA[User]]></item>
+        <item name="wcf.achievement.category.user"><![CDATA[Użytkownik]]></item>
 		<item name="wcf.achievement.category.user.description"><![CDATA[]]></item>
-		<item name="wcf.achievement.category.user.social"><![CDATA[Socials]]></item>
+		<item name="wcf.achievement.category.user.social"><![CDATA[Socjalne]]></item>
 		<item name="wcf.achievement.category.user.social.description"><![CDATA[]]></item>
-		<item name="wcf.achievement.category.user.communication"><![CDATA[Communication]]></item>
+		<item name="wcf.achievement.category.user.communication"><![CDATA[Komunikacja]]></item>
 		<item name="wcf.achievement.category.user.communication.description"><![CDATA[]]></item>
-		<item name="wcf.achievement.list.ranking"><![CDATA[Successful users]]></item>
-		<item name="wcf.achievement.list.ranking.username"><![CDATA[Username]]></item>
-		<item name="wcf.achievement.list.ranking.points"><![CDATA[Achievement points]]></item>
-		<item name="wcf.achievement.copyright"><![CDATA[Plugin: <a href="index.php?page=AchievementPlugin{@SID_ARG_2ND}" title="Achievementsystem 1.0.4"><strong>Achievementsystem 1.0.4</strong></a>, developed by Kiv]]></item>
+		<item name="wcf.achievement.list.ranking"><![CDATA[Wybrani użytkownicy]]></item>
+		<item name="wcf.achievement.list.ranking.username"><![CDATA[Nazwa użytkownika]]></item>
+		<item name="wcf.achievement.list.ranking.points"><![CDATA[Punkty osiągnięć]]></item>
+		<item name="wcf.achievement.copyright"><![CDATA[Plugin: <a href="index.php?page=AchievementPlugin{@SID_ARG_2ND}" title="Achievementsystem 1.0.4"><strong>Achievementsystem 1.0.4</strong></a>, developed by Kiv. Spolszczenie: <a href="http://wbb-site.pl" title="WBB-site.pl - Polski Support Burning Board">WBB-site.pl</a>]]></item>
 		
 		<item name="wcf.achievement.level"><![CDATA[Level]]></item>
-		<item name="wcf.achievement.reward.title"><![CDATA[Reward]]></item>
+		<item name="wcf.achievement.reward.title"><![CDATA[Nagrodzony]]></item>
 		
-		<item name="wcf.achievement.systemsearch.use"><![CDATA[I've found something]]></item>
-		<item name="wcf.achievement.systemsearch.use.description"><![CDATA[Use the search.]]></item>
+		<item name="wcf.achievement.systemsearch.use"><![CDATA[Znalazłem coś]]></item>
+		<item name="wcf.achievement.systemsearch.use.description"><![CDATA[Użyj wyszukiwarki.]]></item>
 				
-		<item name="wcf.achievement.achievement.first.1"><![CDATA[First!]]></item>
-		<item name="wcf.achievement.achievement.first.1.description"><![CDATA[Earn an achievement as first.]]></item>	
-		<item name="wcf.achievement.achievement.first.10"><![CDATA[Hunter]]></item>
-		<item name="wcf.achievement.achievement.first.10.description"><![CDATA[Earn ten achievements as first.]]></item>
-		<item name="wcf.achievement.achievement.first.25"><![CDATA[With hat and whip]]></item>
-		<item name="wcf.achievement.achievement.first.25.description"><![CDATA[Earn twenty-five achievements as first]]></item>
+		<item name="wcf.achievement.achievement.first.1"><![CDATA[Pierwszy!]]></item>
+		<item name="wcf.achievement.achievement.first.1.description"><![CDATA[Zdobądź osiągnięcie jako pierwszy.]]></item>	
+		<item name="wcf.achievement.achievement.first.10"><![CDATA[Myśliwy]]></item>
+		<item name="wcf.achievement.achievement.first.10.description"><![CDATA[Zdobądź dziesięć osiągnięć jako pierwszy.]]></item>
+		<item name="wcf.achievement.achievement.first.25"><![CDATA[Z kapeluszem i biczem]]></item>
+		<item name="wcf.achievement.achievement.first.25.description"><![CDATA[zdobądź dwadzieścia pięć osiągnięć jako pierwszy]]></item>
 
 		 <!-- user profile hits -->
-        <item name="wcf.achievement.userprofile.hits.10"><![CDATA[Who is..?]]></item>
-		<item name="wcf.achievement.userprofile.hits.10.description"><![CDATA[Get ten visitors to your profile.]]></item>
-		<item name="wcf.achievement.userprofile.hits.100"><![CDATA[Who is..?]]></item>
-		<item name="wcf.achievement.userprofile.hits.100.description"><![CDATA[Get hundred visitors to your profile.]]></item>
-		<item name="wcf.achievement.userprofile.hits.1000"><![CDATA[Who is..?]]></item>
-		<item name="wcf.achievement.userprofile.hits.1000.description"><![CDATA[Get thousand visitors to your profile.]]></item>
-		<item name="wcf.achievement.userprofile.hits.10000"><![CDATA[WWho is..Rockstar!]]></item>
-		<item name="wcf.achievement.userprofile.hits.10000.description"><![CDATA[Get ten thousand visitors to your profile.]]></item>
+        <item name="wcf.achievement.userprofile.hits.10"><![CDATA[Kto jest ..?]]></item>
+		<item name="wcf.achievement.userprofile.hits.10.description"><![CDATA[Zaproś dziesięciu użytkowników do twojego profilu.]]></item>
+		<item name="wcf.achievement.userprofile.hits.100"><![CDATA[Kto jest..?]]></item>
+		<item name="wcf.achievement.userprofile.hits.100.description"><![CDATA[Zaproś stu użytkowników do twojego profilu.]]></item>
+		<item name="wcf.achievement.userprofile.hits.1000"><![CDATA[Kto jest..?]]></item>
+		<item name="wcf.achievement.userprofile.hits.1000.description"><![CDATA[Zaproś tysiąc użytkowników do twojego profilu.]]></item>
+		<item name="wcf.achievement.userprofile.hits.10000"><![CDATA[Kto jest.. Gwiazdą!]]></item>
+		<item name="wcf.achievement.userprofile.hits.10000.description"><![CDATA[Zaproś dziesięć tysięcy użytkowników do twojego profilu.]]></item>
 		<!-- usersignature -->
-		<item name="wcf.achievement.usersignature.create"><![CDATA[A lasting impression]]></item>
-		<item name="wcf.achievement.usersignature.create.description"><![CDATA[Create a signature.]]></item>
+		<item name="wcf.achievement.usersignature.create"><![CDATA[Trwałe wrażenie]]></item>
+		<item name="wcf.achievement.usersignature.create.description"><![CDATA[Stwórz sygnaturę.]]></item>
 		<!-- useravatar -->
-		<item name="wcf.achievement.useravatar.create"><![CDATA[It'se me!]]></item>
-		<item name="wcf.achievement.useravatar.create.description"><![CDATA[Upload an own avatar.]]></item>
+		<item name="wcf.achievement.useravatar.create"><![CDATA[To ja!]]></item>
+		<item name="wcf.achievement.useravatar.create.description"><![CDATA[Prześlij swój awatar.]]></item>
 		 <!-- friends -->
-		<item name="wcf.achievement.friends.1"><![CDATA[A new friend]]></item>
+		<item name="wcf.achievement.friends.1"><![CDATA[Nowy przyjaciel]]></item>
 		<item name="wcf.achievement.friends.1.description"><![CDATA[Make friends with a different user.]]></item>
 		<item name="wcf.achievement.friends.10"><![CDATA[Ten new friends]]></item>
 		<item name="wcf.achievement.friends.10.description"><![CDATA[Make friends with ten users.]]></item>
