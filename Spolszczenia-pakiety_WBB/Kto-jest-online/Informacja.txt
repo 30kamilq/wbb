@@ -1,8 +1,3 @@
-Instrukcja instalacji spolszczenia dla WBB 3.1.x
-1. Pobierz Kto jest online (musisz się zarejestrować): http://www.wbbaddons.de/fb/index.php?page=Entry&entryID=65
-2. Zainstaluj pakiet
-3. Zaimportuj plik pl.xml z archiwum w Style -> Języki -> Dodaj nowy język
-
 Instrukcja instalacji spolszczenia dla WBB Lite 2.1
 1. Pobierz Kto jest online (musisz się zarejestrować): http://www.wbbaddons.de/fb/index.php?page=Entry&entryID=65
 2. Zainstaluj pakiet
