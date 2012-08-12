@@ -1,0 +1,72 @@
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
+<language languagecode="pl">	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.additional"><![CDATA[Dodatkowa stopka]]></item>
+		<item name="wcf.acp.option.category.additional.description"><![CDATA[Dodatkowa stopka]]></item>
+		<item name="wcf.acp.option.option_name_additional_text1"><![CDATA[1 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text2"><![CDATA[2 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text3"><![CDATA[3 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text4"><![CDATA[4 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text5"><![CDATA[5 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text6"><![CDATA[6 Link ]]></item>
+		<item name="wcf.acp.option.option_name_additional_text7"><![CDATA[7 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text8"><![CDATA[8 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text9"><![CDATA[9 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text10"><![CDATA[10 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text11"><![CDATA[11 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text12"><![CDATA[12 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text13"><![CDATA[13 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text14"><![CDATA[14 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text15"><![CDATA[15 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text16"><![CDATA[16 Link]]></item>
+		<item name="wcf.acp.option.option_name_additional_text1.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text2.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text3.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text4.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text5.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text6.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text7.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text8.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text9.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text10.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text11.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text12.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text13.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text14.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text15.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional_text16.description"><![CDATA[Tutaj możesz podać link w postaci tekstu lub linku. Możesz również używac HTML'u.]]></item>
+		<item name="wcf.acp.option.option_name_additional1"><![CDATA[Włączyć 1 menu?]]></item>
+		<item name="wcf.acp.option.option_name_additional2"><![CDATA[Włączyć 2 menu?]]></item>
+		<item name="wcf.acp.option.option_name_additional3"><![CDATA[Włączyć 3 menu?]]></item>
+		<item name="wcf.acp.option.option_name_additional4"><![CDATA[Włączyć 4 menu?]]></item>
+		<item name="wcf.acp.option.option_name_additional1.description"><![CDATA[Tutaj możesz włączyć menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional2.description"><![CDATA[Tutaj możesz włączyć menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional3.description"><![CDATA[Tutaj możesz włączyć menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional4.description"><![CDATA[Tutaj możesz włączyć menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional_title1.description"><![CDATA[Podaj tytuł pierwszego pola w menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional_title2.description"><![CDATA[Podaj tytuł pierwszego pola w menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional_title3.description"><![CDATA[Podaj tytuł pierwszego pola w menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional_title4.description"><![CDATA[Podaj tytuł pierwszego pola w menu.]]></item>
+		<item name="wcf.acp.option.option_name_additional_title1"><![CDATA[Pozycja menu]]></item>
+		<item name="wcf.acp.option.option_name_additional_title2"><![CDATA[Pozycja menu]]></item>
+		<item name="wcf.acp.option.option_name_additional_title3"><![CDATA[Pozycja menu]]></item>
+		<item name="wcf.acp.option.option_name_additional_title4"><![CDATA[Pozycja menu]]></item>
+		<item name="wcf.acp.option.module_additionalfooter"><![CDATA[Dodatkowa stopka]]></item>
+		<item name="wcf.acp.option.module_additionalfooter.description"><![CDATA[Wyświetlać dodatkową stopkę?]]></item>
+		<item name="wcf.acp.option.option_name_additional_css"><![CDATA[Deklaracje CSS]]></item>
+		<item name="wcf.acp.option.option_name_additional_css.description"><![CDATA[Deklaracje CSS]]></item>
+		<item name="wcf.acp.option.category.additional.display"><![CDATA[Wyświetlanie]]></item>
+		<item name="wcf.acp.option.category.additional.menu1"><![CDATA[Menu 1]]></item>
+		<item name="wcf.acp.option.category.additional.menu2"><![CDATA[Menu 2]]></item>
+		<item name="wcf.acp.option.category.additional.menu3"><![CDATA[Menu 3]]></item>
+		<item name="wcf.acp.option.category.additional.menu4"><![CDATA[Menu 4]]></item>
+		<item name="wcf.acp.option.category.additional.display.description"><![CDATA[Wyświetlanie]]></item>
+		<item name="wcf.acp.option.category.additional.menu1.description"><![CDATA[Menu 1]]></item>
+		<item name="wcf.acp.option.category.additional.menu2.description"><![CDATA[Menu 2]]></item>
+		<item name="wcf.acp.option.category.additional.menu3.description"><![CDATA[Menu 3]]></item>
+		<item name="wcf.acp.option.category.additional.menu4.description"><![CDATA[Menu 4]]></item>
+	</category>
+</language>
+
+
+
