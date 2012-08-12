@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.infraction">
-		<item name="wcf.acp.infraction.suspension.type.achievement"><![CDATA[Rechte für das Erfolgssystem entziehen]]></item>
+		<item name="wcf.acp.infraction.suspension.type.achievement"><![CDATA[Prawo do wyłączenia systemu osiągnięć]]></item>
 	</category>
 	<category name="wcf.acp.stats">
-		<item name="wcf.acp.stats.type.achievement"><![CDATA[Erfolge]]></item>
+		<item name="wcf.acp.stats.type.achievement"><![CDATA[Osiągnięcie]]></item>
 	</category>
 </language>
