@@ -337,8 +337,8 @@
 		<item name="wsif.acp.category.permissions.fullControl"><![CDATA[Pełny dostęp]]></item>
 		<item name="wsif.acp.category.permissions.permissionsFor"><![CDATA[Uprawnienia dla {$name}'a]]></item>
 		<item name="wsif.acp.category.permissions.title"><![CDATA[Nazwa grupy lub użytkownika]]></item>
-		<item name="wsif.acp.category.position"><![CDATA[Pozycja]]></item>
-		<item name="wsif.acp.category.position.description"><![CDATA[Wprowadź numer sortowania. Ta liczba wskazuje, jak kategoria będzie posortowana w stosunku do innych kategorii.]]></item>
+		<item name="wsif.acp.category.showOrder"><![CDATA[Pozycja]]></item>
+		<item name="wsif.acp.category.showOrder.description"><![CDATA[Wprowadź numer sortowania. Ta liczba wskazuje, jak kategoria będzie posortowana w stosunku do innych kategorii.]]></item>
 		<item name="wsif.acp.category.rating"><![CDATA[Ocena wpisu]]></item>
 		<item name="wsif.acp.category.rating.disable"><![CDATA[Dezaktywuj]]></item>
 		<item name="wsif.acp.category.rating.enable"><![CDATA[Aktywuj]]></item>
