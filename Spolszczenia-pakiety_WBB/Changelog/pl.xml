@@ -88,7 +88,7 @@
 		<item name="wcf.acp.changelog.editProductVersion"><![CDATA[Edytuj wersję produktu]]></item>
 		<item name="wcf.acp.changelog.editProductVersion.success"><![CDATA[Wersja produktu została pomyślnie edytowana na {$changelogProductVersion}.]]></item>
 		<item name="wcf.acp.changelog.changelogProductVersionData"><![CDATA[Dane wersji]]></item>
-		<item name="wcf.acp.changelog.changelogProductVersion"><![CDATA[WErsja]]></item>
+		<item name="wcf.acp.changelog.changelogProductVersion"><![CDATA[Wersja]]></item>
 		<item name="wcf.acp.changelog.changelogProductVersion.description"><![CDATA[Wpisz numer wersji.]]></item>
 		<item name="wcf.acp.changelog.addProductVersionItem"><![CDATA[Dodaj wpis]]></item>
 		<item name="wcf.acp.changelog.changelogProductVersionItemData"><![CDATA[Wprowadzanie danych]]></item>
@@ -117,7 +117,7 @@
 		<item name="wcf.changelog.productDescription"><![CDATA[Opis]]></item>
 		<item name="wcf.changelog.products.empty"><![CDATA[Brak produktów.]]></item>
 		<item name="wcf.changelog.product.noVersions"><![CDATA[Brak wersji.]]></item>
-		<item name="wcf.changelog.versionItem.general"><![CDATA[Głównel]]></item>
+		<item name="wcf.changelog.versionItem.general"><![CDATA[Główne]]></item>
 		<item name="wcf.changelog.versionItem.product"><![CDATA[Produkt]]></item>
 		<item name="wcf.changelog.versionItem.assignedProduct"><![CDATA[Powiązany produkt]]></item>
 		<item name="wcf.changelog.versionItem.assignedVersion"><![CDATA[Powiązana wersja]]></item>
