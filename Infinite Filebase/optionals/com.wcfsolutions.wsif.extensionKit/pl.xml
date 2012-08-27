@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTDs/language.dtd">
-<language languagecode="pl">
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.index_enable_online_list"><![CDATA[Pokaż listę użytkowników online]]></item>
 		<item name="wcf.acp.option.index_enable_online_list.description"><![CDATA[Pokazywać listę użytkowników którzy są aktualnie online?]]></item>
@@ -28,7 +27,7 @@
 		<item name="wsif.header.userMenu.pm"><![CDATA[Prywatne wiadomości]]></item>
 		<item name="wsif.header.userMenu.userGroupLeader"><![CDATA[Lider grupy]]></item>
 	</category>
-	<category name="wsif.header">
+	<category name="wsif.pm">
 		<item name="wsif.pm.notification.report"><![CDATA[Masz w sumie {#$outstandingNotifications|count} nieprzeczytą prywatną wiadomość:]]></item>
 	</category>
 	<category name="wsif.index">

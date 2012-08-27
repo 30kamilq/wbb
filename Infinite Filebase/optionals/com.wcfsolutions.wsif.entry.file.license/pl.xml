@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
-	<category name="wsif.entry">
-		<item name="wsif.entry.file.license"><![CDATA[Informacje prawne]]></item>
-		<item name="wsif.entry.file.license.description"><![CDATA[Proszę przeczytać poniższe warunki licencji. Użyj paska przewijania, aby zobaczyć cały dokument.]]></item>
-		<item name="wsif.entry.file.license.accept.description"><![CDATA[Czy akceptujesz wszystkie warunki licencji? Możesz pobrać plik tylko wtedy, gdy zaakceptujesz licencj.]]></item>
-		<item name="wsif.entry.file.license.error.missingAcception"><![CDATA[Aby pobrać plik, musisz zaakceptować warunki licencji.]]></item>
-	</category>
-</language>

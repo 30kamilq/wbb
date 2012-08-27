@@ -4,21 +4,6 @@
 		<item name="wcf.acp.box"><![CDATA[Pole]]></item>
 		<item name="wcf.acp.box.add"><![CDATA[Dodaj pole]]></item>
 		<item name="wcf.acp.box.add.success"><![CDATA[Pole zostało pomyślnie dodane]]></item>
-		<item name="wcf.acp.box.assignment"><![CDATA[Przypisanie pola]]></item>
-		<item name="wcf.acp.box.assignment.box.add"><![CDATA[Dodaj pole]]></item>
-		<item name="wcf.acp.box.assignment.box.boxID"><![CDATA[Pole]]></item>
-		<item name="wcf.acp.box.assignment.box.invalid"><![CDATA[Wybrane pole jest nieprawidłowe.]]></item>
-		<item name="wcf.acp.box.assignment.box.remove"><![CDATA[Usuń pole]]></item>
-		<item name="wcf.acp.box.assignment.box.remove.success"><![CDATA[Pole zostało usunięte.]]></item>
-		<item name="wcf.acp.box.assignment.box.remove.sure"><![CDATA[Czy chcesz usunąć to pole?]]></item>
-		<item name="wcf.acp.box.assignment.boxLayout"><![CDATA[Layout]]></item>
-		<item name="wcf.acp.box.assignment.boxLayout.description"><![CDATA[Wybierz układ pola.]]></item>
-		<item name="wcf.acp.box.assignment.boxPosition"><![CDATA[Pozycja]]></item>
-		<item name="wcf.acp.box.assignment.boxPosition.description"><![CDATA[Wybierz miejsce Layoutów &raquo;{$boxLayout->title}&laquo; z polami którymi chcesz zarządzać.]]></item>
-		<item name="wcf.acp.box.assignment.boxes"><![CDATA[Pola]]></item>
-		<item name="wcf.acp.box.assignment.count.noBoxes"><![CDATA[Ta pozycja nie posiada pól.]]></item>
-		<item name="wcf.acp.box.box"><![CDATA[Nazwa]]></item>
-		<item name="wcf.acp.box.boxID"><![CDATA[ID pola]]></item>
 		<item name="wcf.acp.box.boxName"><![CDATA[Nazwa]]></item>
 		<item name="wcf.acp.box.boxName.description"><![CDATA[Określ nazwę pola.]]></item>
 		<item name="wcf.acp.box.boxTabs"><![CDATA[Zakładki pól]]></item>
@@ -39,11 +24,6 @@
 		<item name="wcf.acp.box.layout"><![CDATA[Layout pola]]></item>
 		<item name="wcf.acp.box.layout.add"><![CDATA[Dodaj layout pola]]></item>
 		<item name="wcf.acp.box.layout.add.success"><![CDATA[Layout pola został pomyślnie dodany.]]></item>
-		<item name="wcf.acp.box.layout.box.add"><![CDATA[Dodaj pole]]></item>
-		<item name="wcf.acp.box.layout.box.boxID"><![CDATA[Pole]]></item>
-		<item name="wcf.acp.box.layout.box.invalid"><![CDATA[Wybrane pole jest nieprawidłowe.]]></item>
-		<item name="wcf.acp.box.layout.box.remove"><![CDATA[Usuń pole]]></item>
-		<item name="wcf.acp.box.layout.box.remove.sure"><![CDATA[Czy na pewno chcesz usunąc to pole?]]></item>
 		<item name="wcf.acp.box.layout.boxAssignment"><![CDATA[Przypisane pole]]></item>
 		<item name="wcf.acp.box.layout.boxAssignment.box"><![CDATA[Pole]]></item>
 		<item name="wcf.acp.box.layout.boxAssignment.box.add"><![CDATA[Dodaj pole]]></item>
@@ -63,7 +43,6 @@
 		<item name="wcf.acp.box.layout.boxAssignment.count.noBoxes"><![CDATA[Obecnie nie ma pola przypisanego do tej pozycji.]]></item>
 		<item name="wcf.acp.box.layout.boxLayoutID"><![CDATA[ID układu pola]]></item>
 		<item name="wcf.acp.box.layout.boxes"><![CDATA[Pola]]></item>
-		<item name="wcf.acp.box.layout.count.noBoxes"><![CDATA[Obecnie nie ma pola przypisanego do tej pozycji.]]></item>
 		<item name="wcf.acp.box.layout.data"><![CDATA[Dane]]></item>
 		<item name="wcf.acp.box.layout.delete"><![CDATA[Usuń układ pola]]></item>
 		<item name="wcf.acp.box.layout.delete.success"><![CDATA[Układ pola został pomyślnie usunięty.]]></item>
@@ -88,6 +67,7 @@
 		<item name="wcf.acp.box.tab.boxTabName"><![CDATA[Nazwa]]></item>
 		<item name="wcf.acp.box.tab.boxTabName.description"><![CDATA[Okreś nazwę karty pola]]></item>
 		<item name="wcf.acp.box.tab.boxTabType"><![CDATA[Typ karty pola]]></item>
+		
 		<item name="wcf.acp.box.tab.delete"><![CDATA[Usuń kartę pola]]></item>
 		<item name="wcf.acp.box.tab.delete.success"><![CDATA[Karta pola została usunięta.]]></item>
 		<item name="wcf.acp.box.tab.delete.sure"><![CDATA[Czy na pewno chcesz usunąć kartę pola?]]></item>
@@ -119,6 +99,7 @@
 		<item name="wcf.acp.box.tab.option.image.alternativeTitle"><![CDATA[Alternatywny tytuł]]></item>
 		<item name="wcf.acp.box.tab.option.image.alternativeTitle.description"><![CDATA[Wpisz alternatywny tytuł dla obrazu.]]></item>
 		<item name="wcf.acp.box.tab.option.image.enableFullsize"><![CDATA[Pozwól na powiększanie obrazków]]></item>
+		
 		<item name="wcf.acp.box.tab.option.image.enableFullsize.description"><![CDATA[]]></item>
 		<item name="wcf.acp.box.tab.option.image.image"><![CDATA[Obrazki]]></item>
 		<item name="wcf.acp.box.tab.option.image.image.description"><![CDATA[Geben Sie den Pfad zu dem Bild an, welcher relativ zum Ordner der aktiven Endanwendung anzugeben ist.]]></item>
@@ -171,7 +152,6 @@
 	<category name="wcf.acp.menu">
 		<item name="wcf.acp.menu.link.content.box"><![CDATA[Pola]]></item>
 		<item name="wcf.acp.menu.link.content.box.add"><![CDATA[Dodaj pole]]></item>
-		<item name="wcf.acp.menu.link.content.box.assignment"><![CDATA[Przypisz pole]]></item>
 		<item name="wcf.acp.menu.link.content.box.layout.add"><![CDATA[Dodaj layout pola]]></item>
 		<item name="wcf.acp.menu.link.content.box.layout.boxAssignment"><![CDATA[Przypisz pole]]></item>
 		<item name="wcf.acp.menu.link.content.box.layout.view"><![CDATA[Lista layoutów pola]]></item>
@@ -180,21 +160,15 @@
 		<item name="wcf.acp.menu.link.content.box.view"><![CDATA[Lista pól]]></item>
 	</category>
 	<category name="wcf.acp.package">
-		<item name="wcf.acp.package.step.install.BoxOptionsPackageInstallationPlugin"><![CDATA[Boxeinstellungen werden installiert ...]]></item>
-		<item name="wcf.acp.package.step.install.BoxPositionPackageInstallationPlugin"><![CDATA[Boxpositionen werden installiert ...]]></item>
-		<item name="wcf.acp.package.step.install.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Boxtab-Einstellungen werden installiert ...]]></item>
-		<item name="wcf.acp.package.step.install.BoxTabTypePackageInstallationPlugin"><![CDATA[Boxtab-Typen werden installiert ...]]></item>
-		<item name="wcf.acp.package.step.install.BoxTypePackageInstallationPlugin"><![CDATA[Boxtypen werden installiert ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.BoxOptionsPackageInstallationPlugin"><![CDATA[Boxeinstellungen werden deinstalliert ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.BoxPositionPackageInstallationPlugin"><![CDATA[Boxpositionen werden deinstalliert ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Boxtab-Einstellungen werden deinstalliert ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.BoxTabTypePackageInstallationPlugin"><![CDATA[Boxtab-Typen werden deinstalliert ...]]></item>
-		<item name="wcf.acp.package.step.uninstall.BoxTypePackageInstallationPlugin"><![CDATA[Boxtypen werden deinstalliert ...]]></item>
-		<item name="wcf.acp.package.step.update.BoxOptionsPackageInstallationPlugin"><![CDATA[Boxeinstellungen werden aktualisiert ...]]></item>
-		<item name="wcf.acp.package.step.update.BoxPositionPackageInstallationPlugin"><![CDATA[Boxpositionen werden aktualisiert ...]]></item>
-		<item name="wcf.acp.package.step.update.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Boxtab-Einstellungen werden aktualisiert ...]]></item>
-		<item name="wcf.acp.package.step.update.BoxTabTypePackageInstallationPlugin"><![CDATA[Boxtab-Typen werden aktualisiert ...]]></item>
-		<item name="wcf.acp.package.step.update.BoxTypePackageInstallationPlugin"><![CDATA[Boxtypen werden aktualisiert ...]]></item>
+		<item name="wcf.acp.package.step.install.BoxPositionPackageInstallationPlugin"><![CDATA[Instalacja pozycji pól ...]]></item>
+		<item name="wcf.acp.package.step.install.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Instalacja ustawień pól ...]]></item>
+		<item name="wcf.acp.package.step.install.BoxTabTypePackageInstallationPlugin"><![CDATA[Instalacja typów pól ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.BoxPositionPackageInstallationPlugin"><![CDATA[Odinstalowywanie pozycji pól ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Odinstalowywanie ustawień pól ...]]></item>
+		<item name="wcf.acp.package.step.uninstall.BoxTabTypePackageInstallationPlugin"><![CDATA[Odinstalowywanie typów pól ...]]></item>
+		<item name="wcf.acp.package.step.update.BoxPositionPackageInstallationPlugin"><![CDATA[Aktualizacja pozycji pól ...]]></item>
+		<item name="wcf.acp.package.step.update.BoxTabOptionsPackageInstallationPlugin"><![CDATA[Aktualizacja ustawień pól ...]]></item>
+		<item name="wcf.acp.package.step.update.BoxTabTypePackageInstallationPlugin"><![CDATA[Aktualizacja typów pól ...]]></item>
 	</category>
 	<category name="wcf.box">
 		<item name="wcf.box.close"><![CDATA[Zamknięte pole]]></item>
