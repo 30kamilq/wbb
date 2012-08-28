@@ -629,7 +629,7 @@ Dopuszczalne rozszerzenia: {$allowedFileExtensions}]]></item>
 		<item name="wsif.entry.file.views"><![CDATA[Wyświetleń]]></item>
 		<item name="wsif.entry.file.viewsPerDay"><![CDATA[{#$file->getViewsPerDay()} wyświetleń/dziennie]]></item>
 		<item name="wsif.entry.files"><![CDATA[Pliki]]></item>
-		<item name="wsif.entry.files.downloads"><![CDATA[Ostatni pobierający]]></item>
+		<item name="wsif.entry.files.downloads"><![CDATA[Liczba pobrań]]></item>
 		<item name="wsif.entry.files.title"><![CDATA[Nazwa]]></item>
 		<item name="wsif.entry.files.views"><![CDATA[Wyświetleń]]></item>
 		<item name="wsif.entry.general"><![CDATA[Główne informacje]]></item>
