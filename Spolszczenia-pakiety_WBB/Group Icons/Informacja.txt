@@ -1,0 +1,11 @@
+Instrukcja instalacji spolszczenia dla WBB 3.1.x
+1. Pobierz Group Icons: http://www.woltlab.com/pluginstore/plugin.html?pluginID=1108
+2. Zainstaluj pakiet
+3. Pobierz spolszczenie z naszej strony (Button "Pobierz plik") 
+4. Zaimportuj plik pl.xml z archiwum w Style -> Języki -> Dodaj nowy język
+
+Instrukcja instalacji spolszczenia dla WBB Lite 2.1
+1. Pobierz Group Icons: http://www.woltlab.com/pluginstore/plugin.html?pluginID=1108
+2. Zainstaluj pakiet
+3. Pobierz spolszczenie z naszej strony (Button "Pobierz plik") 
+4. Pakiet group_icons.tar zaimportuj w System -> Pakiety -> Instaluj nowy pakiet

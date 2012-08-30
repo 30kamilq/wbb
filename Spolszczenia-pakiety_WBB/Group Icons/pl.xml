@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="pl">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_groupicon"><![CDATA[Ikony grup]]></item>
+		<item name="wcf.acp.option.module_groupicon.description"><![CDATA[Umożliwia wyświetlanie ikony grupy w profilu.]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.icon"><![CDATA[Ikona grupy]]></item>
+		<item name="wcf.acp.group.option.category.user.icon.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconEnabled"><![CDATA[Włącz ikonę grupy.]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconEnabled.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.icon.icon"><![CDATA[Ścieżka ikony]]></item>
+		<item name="wcf.acp.group.option.user.icon.icon.description"><![CDATA[Podaj ścieżkę do ikony. Przykład: &raquo;images/gruppenicon.png&laquo.]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconText"><![CDATA[Tekst]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconText.description"><![CDATA[Wprowadź tekst, który pojawi się po najechaniu na ikonę.]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconURL"><![CDATA[URL]]></item>
+		<item name="wcf.acp.group.option.user.icon.iconURL.description"><![CDATA[Możesz określić adres URL.]]></item>
+	</category>
+</language>
