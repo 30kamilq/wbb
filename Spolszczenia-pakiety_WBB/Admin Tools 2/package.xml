@@ -18,13 +18,13 @@
     <requiredpackages>
         <requiredpackage minversion="1.1.5">com.woltlab.wcf</requiredpackage>
     </requiredpackages>
-    <!-- wymagane pakiety -->
+    <!-- instalacja -->
     <instructions type="install" >
         <languages languagecode="pl">pl.xml</languages>
     </instructions>
     <!-- aktualizacja -->
     <instructions type="update" fromversion="1.0.0">
-		    <languages languagecode="pl">pl.xml</languages>
-	  </instructions>
+	<languages languagecode="pl">pl.xml</languages>
+    </instructions>
     
 </package>
